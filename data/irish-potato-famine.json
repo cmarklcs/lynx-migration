@@ -1,0 +1,73 @@
+{
+  "slug": "irish-potato-famine",
+  "name": "The Irish Potato Famine",
+  "reason": "Famine",
+  "years": "1845–1852",
+  "startYear": 1845,
+  "place": "Ireland",
+  "intro": "In 1845, a plant disease called blight began destroying Ireland's potato crops. Potatoes were the main food for poor families, so millions of people went hungry and about 1 million died. About 2 million people left Ireland, and most of them sailed to the United States.",
+  "keyFacts": [
+    {"label": "When", "value": "1845–1852"},
+    {"label": "Where", "value": "Ireland"},
+    {"label": "Who moved", "value": "Mostly poor Irish farm families"},
+    {"label": "How many", "value": "About 2 million people left Ireland between 1845 and 1855"},
+    {"label": "Where they went", "value": "Mostly the United States; also Canada, Great Britain, and Australia"}
+  ],
+  "timeline": [
+    {"year": "1845", "text": "Potato blight reaches Ireland, and potatoes begin to rot after the harvest."},
+    {"year": "1846", "text": "Blight destroys most of Ireland's potato crop."},
+    {"year": "1847", "text": "\"Black '47\" is the worst year. The Choctaw Nation sends $170 to help Irish families."},
+    {"year": "1851", "text": "Ireland's census counts more than 1.5 million fewer people than in 1841."},
+    {"year": "1852", "text": "Potato crops finally recover, and the famine is considered over."},
+    {"year": "1960", "text": "John F. Kennedy, great-grandson of a famine immigrant, is elected U.S. president."}
+  ],
+  "sections": [
+    {"key": "happened", "title": "What happened?", "paragraphs": [
+      "In the 1840s, most poor families in Ireland depended on potatoes for food. More than half of the people relied on potatoes as their main food. Many families ate almost nothing else. Farmers grew mostly one kind of potato, called the Irish Lumper.",
+      "In 1845, a plant disease called blight reached Ireland. It made potatoes rot after the harvest. In 1846, the blight destroyed almost the whole potato crop. It kept coming back until about 1852.",
+      "More than three million people depended completely on potatoes, so huge numbers of families went hungry. About 1 million people died from hunger and sickness. The year 1847 was so bad that people called it \"Black '47.\" In Irish, the famine is called An Gorta Mór, which means \"the Great Hunger.\""
+    ], "from": [1, 2, 3]},
+    {"key": "why", "title": "Why did people move?", "paragraphs": [
+      "Most Irish farmers were tenants who rented their land from rich landowners. Without potatoes, they had no food and very little money. Some landlords evicted families from their homes. Some even paid for ship tickets to send poor tenants away.",
+      "Ireland was ruled by Great Britain at the time. The British government bought corn from America to help, but it was not nearly enough. Meanwhile, food such as butter and livestock was still shipped out of Ireland. Many Irish people were angry that food left the country while people starved.",
+      "Families left to escape hunger and sickness and to find work. Between 1845 and 1855, more than 2 million people left Ireland. It was one of the largest movements of people from a single island in history."
+    ], "from": [1, 3, 4]},
+    {"key": "journey", "title": "Where did they go, and how?", "paragraphs": [
+      "Most emigrants sailed across the Atlantic Ocean to the United States. Others went to Canada, Great Britain, or Australia. So many went to Liverpool, England, that it was called \"Ireland's second capital.\" Many people who landed in Canada later traveled south into the United States.",
+      "The ocean trip took about 40 days. Many ships were old cargo ships that were crowded and dirty. Passengers had little food or clean water, and sickness spread quickly. Because so many passengers became sick and died, people called these ships \"coffin ships.\"",
+      "Most Irish immigrants settled in Boston, New York, and other cities on the East Coast. Many were too poor to travel any farther than the docks. They lived in crowded buildings near the ports, often in basements and attics. Families formed close Catholic communities to help each other."
+    ], "from": [1, 2, 4]},
+    {"key": "changed", "title": "How did it change lives?", "paragraphs": [
+      "Life in America was hard at first. Irish men took dangerous, low-paying jobs, like digging canals and laying railroad track. Women often worked as servants or in textile mills. Some job ads even said, \"No Irish need apply.\"",
+      "Some Americans treated Irish immigrants unfairly because they were poor and Catholic. A political group called the Know-Nothings tried to keep immigrants out of power. Over time, though, Irish Americans became leaders in their cities. In 1960, John F. Kennedy, the great-grandson of a famine immigrant, was elected president.",
+      "The famine changed Ireland forever. Its population fell from about 8.2 million in 1841 to about 6.6 million in 1851. Today, about 32 million Americans have mostly Irish roots. Memorials in Ireland, New York City, Boston, and other places help people remember the Great Hunger."
+    ], "from": [1, 2, 3, 4]}
+  ],
+  "vocab": [
+    {"word": "famine", "meaning": "A time when there is not enough food for many people, so they go hungry."},
+    {"word": "blight", "meaning": "A plant disease that makes crops rot and die."},
+    {"word": "tenant", "meaning": "A person who pays rent to live on or farm someone else's land."},
+    {"word": "evict", "meaning": "To force people to leave the home or land they rent."},
+    {"word": "emigrate", "meaning": "To leave your home country to live in another country."},
+    {"word": "immigrant", "meaning": "A person who moves to a new country to live there."},
+    {"word": "discrimination", "meaning": "Treating people unfairly because of who they are, such as their religion or where they come from."}
+  ],
+  "teacherNote": "This page says plainly that about 1 million people died and mentions \"coffin ships,\" but it avoids graphic details of starvation and disease. Please preview both videos; the Simple History cartoon may show hunger and sickness.",
+  "photos": [
+    {"file": "irish-potato-famine-1.jpg", "alt": "A tall wooden sailing ship with three masts tied up at a dock in Dublin.", "caption": "The Jeanie Johnston is a copy of a real ship that carried Irish families to North America during the famine.", "credit": "William Murphy", "license": "CC BY-SA 2.0", "source": "https://commons.wikimedia.org/wiki/File:Tall_ship_Jeanie_Johnston_1.jpg"},
+    {"file": "irish-potato-famine-2.jpg", "alt": "Old stone walls and tall wild plants behind a sign that reads Irish Hunger Memorial is open.", "caption": "The Irish Hunger Memorial in New York City looks like an abandoned Irish farm, with stone walls and wild plants.", "credit": "David Shankbone", "license": "CC BY 2.5", "source": "https://commons.wikimedia.org/wiki/File:Irish_Hunger_Memorial_(2).JPG"},
+    {"file": "irish-potato-famine-map.jpg", "map": true, "alt": "World map with Ireland in black and countries shaded green; the United States, Canada, Great Britain, and Australia are darkest.", "caption": "Darker green countries have more people with Irish roots today, including the United States, Canada, Great Britain, and Australia.", "credit": "Allice Hunter", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Map_of_the_Irish_Diaspora_in_the_World.svg"}
+  ],
+  "videos": [
+    {"title": "What really caused the Irish Potato Famine - Stephanie Honchell Smith", "url": "https://www.youtube.com/watch?v=OUieqzVZdQc", "channel": "TED-Ed", "about": "An animated lesson about the potato blight, why so many people depended on potatoes, and how the government responded.", "minutes": 5, "cite": "\"What really caused the Irish Potato Famine - Stephanie Honchell Smith.\" TED-Ed. 2023."},
+    {"title": "The Irish Potato Famine (1845–1852)", "url": "https://www.youtube.com/watch?v=M8Rbj7H0eX4", "channel": "Simple History", "about": "A short cartoon history of the famine, from the failed potato crops to emigration.", "minutes": 6, "cite": "\"The Irish Potato Famine (1845–1852).\" Simple History. 2018."}
+  ],
+  "sources": [
+    {"title": "Irish Famine", "site": "Britannica Kids", "url": "https://kids.britannica.com/kids/article/Irish-Famine/487499", "level": "On level", "about": "A short kids' encyclopedia article about the potato blight and the Irish Famine.", "cite": "\"Irish Famine.\" Britannica Kids."},
+    {"title": "Great Famine (Ireland) facts for kids", "site": "Kiddle", "url": "https://kids.kiddle.co/Great_Famine_(Ireland)", "level": "On level", "about": "Covers the causes of the famine, deaths, emigration, coffin ships, and memorials.", "cite": "\"Great Famine (Ireland) facts for kids.\" Kiddle."},
+    {"title": "The Potato Famine and Irish Immigration to America", "site": "Teach Democracy", "url": "https://teachdemocracy.org/online-lesson/the-potato-famine-and-irish-immigration-to-america/", "level": "Challenging", "about": "Explains the famine year by year and what life was like for Irish immigrants in America.", "cite": "\"The Potato Famine and Irish Immigration to America.\" Teach Democracy."},
+    {"title": "Irish Potato Famine", "site": "History.com", "url": "https://www.history.com/articles/irish-potato-famine", "level": "Challenging", "about": "Describes the blight, British rule, food exports, and how the famine is remembered.", "cite": "\"Irish Potato Famine.\" History.com."},
+    {"title": "When America Despised the Irish: The 19th Century's Refugee Crisis", "site": "History.com", "url": "https://www.history.com/articles/when-america-despised-the-irish-the-19th-centurys-refugee-crisis", "level": "Challenging", "about": "Explains the ocean crossing, the jobs Irish immigrants found, and the unfair treatment they faced.", "cite": "\"When America Despised the Irish: The 19th Century's Refugee Crisis.\" History.com."}
+  ],
+  "britannica": {"title": "Irish Famine", "kidsUrl": "https://kids.britannica.com/kids/article/Irish-Famine/487499", "id": "487499", "pathSlug": "Irish-Famine"}
+}

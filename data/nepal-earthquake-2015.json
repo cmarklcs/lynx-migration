@@ -1,0 +1,93 @@
+{
+  "slug": "nepal-earthquake-2015",
+  "name": "Nepal Earthquake (2015)",
+  "reason": "Natural disaster",
+  "years": "2015",
+  "startYear": 2015,
+  "place": "Gorkha and Kathmandu, Nepal",
+  "intro": "On April 25, 2015, a powerful earthquake struck the mountain country of Nepal. It destroyed villages, homes, schools, and famous old temples. About 9,000 people died, and millions of people lost their homes.",
+  "keyFacts": [
+    {"label": "When", "value": "April 25, 2015, with a second big earthquake on May 12, 2015"},
+    {"label": "Where", "value": "Central Nepal, near the Gorkha District and the capital city, Kathmandu"},
+    {"label": "Who moved", "value": "Families in mountain villages and cities whose homes were destroyed"},
+    {"label": "How many", "value": "About 2.6 million people had to move from their communities"},
+    {"label": "Where they went", "value": "Tents and temporary shelters near their villages, then rebuilt homes"}
+  ],
+  "timeline": [
+    {"year": "2015", "text": "On April 25 at 11:56 a.m., a magnitude 7.8 earthquake struck near the Gorkha District of Nepal."},
+    {"year": "2015", "text": "The shaking knocked down the Dharahara tower and old temples in Kathmandu and set off an avalanche on Mount Everest."},
+    {"year": "2015", "text": "On May 12, a second strong earthquake, measuring 7.3, struck Nepal."},
+    {"year": "2015", "text": "About five weeks after the first earthquake, 14,000 children went back to school in temporary classrooms."},
+    {"year": "2015", "text": "In December, Nepal set up a national agency to lead the rebuilding."},
+    {"year": "2024", "text": "On September 19, a newly rebuilt Dharahara tower opened to visitors in Kathmandu."}
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "On April 25, 2015, just before noon, a strong earthquake shook Nepal. Nepal is a small country in the Himalaya Mountains, between India and China. The earthquake measured 7.8. It started near the Gorkha District, about 50 miles northwest of the capital city, Kathmandu.",
+        "The shaking lasted about 50 seconds, but it caused huge damage. Homes, schools, roads, and bridges fell apart. In Kathmandu, the tall Dharahara tower, built in 1832, collapsed. Several old temples in Kathmandu Durbar Square also fell down.",
+        "About 9,000 people died, and about 22,000 people were hurt. The shaking also caused an avalanche on Mount Everest. Then, on May 12, a second strong earthquake measuring 7.3 hit Nepal and caused even more damage."
+      ],
+      "from": [0, 1]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "Millions of people lost their homes in the earthquakes. In one village, all 25 houses were destroyed. About 2.6 million people had to move away from their communities.",
+        "Aftershocks, smaller earthquakes that come after a big one, kept shaking the ground. By May 2016, Nepal had felt 459 aftershocks of magnitude 4 or higher. During strong aftershocks, people hurried to open spaces away from buildings.",
+        "Schools were hit hard too. More than half of Nepal's schools were damaged or destroyed. Close to 1 million children could not go to school."
+      ],
+      "from": [0, 1, 2]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "Most families did not travel far. They stayed close to their villages and lived in tents and temporary shelters. Nearly 1.7 million children were living outdoors after the earthquake. UNICEF and other groups handed out tents, clean water, and hygiene kits.",
+        "Getting help to mountain villages was hard. Many villages could only be reached by dirt roads or footpaths. When the monsoon rains began in June, landslides blocked the paths. Low clouds also kept helicopters from flying.",
+        "Nepal's army and many other countries helped with rescue work. Groups built temporary classrooms out of bamboo poles covered with tarps. About five weeks after the first earthquake, 14,000 children were back at school in 137 of these learning centers. Going to school gave children a safe place and a normal daily routine."
+      ],
+      "from": [0, 1, 2]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "Rebuilding Nepal took many years. In December 2015, the government set up a national agency to lead the work. Even in 2016, about 70 percent of people who had lost their homes were still living in temporary shelters. Rebuilding continued through 2017 and 2018.",
+        "Countries around the world promised about 3 billion dollars to help Nepal. A special program helped families in the hardest-hit areas rebuild their houses. Aid groups also rebuilt schools and repaired water systems for farms.",
+        "Nepal also worked to rebuild its famous landmarks. A new Dharahara tower was built in Kathmandu. It opened to visitors on September 19, 2024, nine years after the old tower fell. The new tower has 22 floors, a museum, and a garden."
+      ],
+      "from": [0, 1, 3]
+    }
+  ],
+  "vocab": [
+    {"word": "earthquake", "meaning": "A sudden shaking of the ground caused by rocks moving deep under the Earth's surface."},
+    {"word": "magnitude", "meaning": "A number that tells how strong an earthquake is. Bigger numbers mean stronger earthquakes."},
+    {"word": "aftershock", "meaning": "A smaller earthquake that happens after a big earthquake in the same area."},
+    {"word": "avalanche", "meaning": "A large amount of snow and ice that suddenly slides down a mountain."},
+    {"word": "monsoon", "meaning": "A season of very heavy rain in South Asia, usually in the summer."},
+    {"word": "temporary", "meaning": "Lasting only a short time, not forever."},
+    {"word": "landmark", "meaning": "A famous building or place that is easy to recognize."}
+  ],
+  "teacherNote": "The page states plainly that about 9,000 people died, without graphic detail. Photos show a damaged historic square with no people, the rebuilt Dharahara tower, and a map. Please preview the UNICEF video, which shows children and families after the earthquakes.",
+  "photos": [
+    {"file": "nepal-earthquake-2015-1.jpg", "alt": "A stone statue in front of piles of broken bricks and an empty brick platform where a temple once stood in Kathmandu Durbar Square.", "caption": "Piles of bricks were all that was left of some old temples in Kathmandu Durbar Square after the earthquakes.", "credit": "Nirjal stha", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Kathmandu_Durbar_Square_after_2nd_Earthquake_hit.JPG"},
+    {"file": "nepal-earthquake-2015-2.jpg", "alt": "A tall white round tower with a balcony near the top, seen against an orange evening sky.", "caption": "The new Dharahara tower in Kathmandu was rebuilt after the old tower fell in the 2015 earthquake.", "credit": "Sumir Shrestha", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:DHARAHARA_TOWER.jpg"},
+    {"file": "nepal-earthquake-2015-map.jpg", "map": true, "alt": "USGS map of central Nepal with a star marking where the earthquake started, between Pokhara and Kathmandu, and red and orange colors showing the strongest shaking.", "caption": "The star shows where the earthquake started, and the red and orange areas near Kathmandu shook the hardest.", "credit": "United States Geological Survey", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:April_2015_Nepal_earthquake_ShakeMap_version_6.png"}
+  ],
+  "videos": [
+    {"title": "What Causes Earthquakes?", "url": "https://www.youtube.com/watch?v=AArne-wh_Uc", "channel": "SciShow Kids", "about": "Explains how moving pieces of the Earth's crust cause earthquakes.", "minutes": 4, "cite": "\"What Causes Earthquakes?\" SciShow Kids. 2017."},
+    {"title": "#EmergencyLessons: School = hope for children after Nepal earthquakes | UNICEF", "url": "https://www.youtube.com/watch?v=43gsKrpr5p8", "channel": "UNICEF", "about": "Shows how going back to school helped children in Nepal after the earthquakes.", "minutes": 2, "cite": "\"#EmergencyLessons: School = hope for children after Nepal earthquakes | UNICEF.\" UNICEF. 2016."}
+  ],
+  "sources": [
+    {"title": "April 2015 Nepal earthquake Facts for Kids", "site": "Kiddle", "url": "https://kids.kiddle.co/April_2015_Nepal_earthquake", "level": "On level", "about": "A kids' encyclopedia article about the earthquake, the damage, and how people were helped.", "cite": "\"April 2015 Nepal earthquake Facts for Kids.\" Kiddle."},
+    {"title": "Nepal earthquakes: Facts, FAQs, and how to help", "site": "World Vision", "url": "https://www.worldvision.org/disaster-relief-news-stories/2015-nepal-earthquake-facts", "level": "Challenging", "about": "An aid group explains the earthquakes, the damage to schools, and the years of rebuilding.", "cite": "\"Nepal earthquakes: Facts, FAQs, and how to help.\" World Vision. 2023."},
+    {"title": "In Nepal, children attend makeshift schools after earthquakes strike", "site": "PBS NewsHour", "url": "https://www.pbs.org/newshour/world/nepal-children-attend-makeshift-schools", "level": "Challenging", "about": "A news story about children going back to school in bamboo and tarp classrooms.", "cite": "Epatko, Larisa. \"In Nepal, children attend makeshift schools after earthquakes strike.\" PBS NewsHour. 2015."},
+    {"title": "Dharahara reopens to public", "site": "The Kathmandu Post", "url": "https://kathmandupost.com/visual-stories/2024/09/19/dharahara-reopens-to-public", "level": "Challenging", "about": "A photo story from Nepal's newspaper about the rebuilt Dharahara tower opening to visitors.", "cite": "\"Dharahara reopens to public.\" The Kathmandu Post. 2024."},
+    {"title": "Nepal earthquake of 2015", "site": "Britannica Kids", "url": "https://kids.britannica.com/students/article/Nepal-earthquake-of-2015/645652", "level": "Challenging", "about": "An encyclopedia article for students about the earthquake and its effects (sign in through Britannica School).", "cite": "\"Nepal earthquake of 2015.\" Britannica Kids."}
+  ],
+  "britannica": {"title": "Nepal earthquake of 2015", "kidsUrl": "https://kids.britannica.com/students/article/Nepal-earthquake-of-2015/645652", "id": "645652", "pathSlug": "Nepal-earthquake-of-2015"}
+}

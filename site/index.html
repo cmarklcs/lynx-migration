@@ -1,0 +1,502 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Lynx Journeys</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lexend:wght@400;600;700&family=Zilla+Slab:wght@600;700&display=swap">
+<script src="settings-config.js"></script>
+<style>
+/* Lynx Journeys — Lausanne navy, blue, gold. Layout: an atlas-style library; home is a timeline + cards, topic is a long report page. */
+:root{
+  --paper:#f4f6f9; --card:#ffffff; --ink:#142235; --soft:#55637a; --line:#d5dde8;
+  --brand:#00274c; --brand-soft:#e2e9f2; --sky:#017ea7; --sky-soft:#ddf0f7;
+  --sun:#ffcb05; --sun-soft:#fff3c4; --rose:#b3304d; --rose-soft:#f8e3e8;
+  --shadow:0 1px 0 rgba(0,39,76,.08), 0 10px 26px -14px rgba(0,39,76,.35);
+  --display:"Zilla Slab",Rockwell,"Georgia",serif;
+  --body:"Lexend","Verdana",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --paper:#0b1525; --card:#132236; --ink:#eef3f9; --soft:#a7b5c8; --line:#26384f;
+  --brand:#ffcb05; --brand-soft:#1b2e47; --sky:#55c2e8; --sky-soft:#12344a;
+  --sun:#ffcb05; --sun-soft:#3a3214; --rose:#f08aa0; --rose-soft:#3d1c27;
+  --shadow:0 1px 0 rgba(0,0,0,.3), 0 10px 26px -14px rgba(0,0,0,.7); color-scheme:dark}}
+:root[data-theme="dark"]{
+  --paper:#0b1525; --card:#132236; --ink:#eef3f9; --soft:#a7b5c8; --line:#26384f;
+  --brand:#ffcb05; --brand-soft:#1b2e47; --sky:#55c2e8; --sky-soft:#12344a;
+  --sun:#ffcb05; --sun-soft:#3a3214; --rose:#f08aa0; --rose-soft:#3d1c27;
+  --shadow:0 1px 0 rgba(0,0,0,.3), 0 10px 26px -14px rgba(0,0,0,.7); color-scheme:dark}
+
+*{box-sizing:border-box}
+[hidden]{display:none!important}
+html,body{margin:0}
+body{background:var(--paper);color:var(--ink);font-family:var(--body);font-size:1.1rem;line-height:1.65;padding:env(safe-area-inset-top,0) 0 env(safe-area-inset-bottom,0)}
+.wrap{max-width:1120px;margin:0 auto;padding-inline:clamp(16px,4vw,32px);padding-block:18px 48px}
+a{color:var(--sky)}
+img{max-width:100%}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px;border-radius:6px}
+h1,h2,h3{font-family:var(--display);line-height:1.15;text-wrap:balance;margin:0}
+
+.bar{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:20px}
+.brand{font-family:var(--display);font-weight:700;font-size:1.35rem;text-decoration:none;color:var(--brand);display:flex;align-items:center;gap:10px}
+.brand svg{width:40px;height:40px;flex:none}
+.brand span{display:grid;line-height:1.05}
+.brand small{font-family:var(--body);font-weight:700;font-size:.72rem;color:var(--soft);letter-spacing:.04em;text-transform:uppercase}
+.spacer{flex:1}
+.pill{border:2px solid var(--line);background:var(--card);border-radius:999px;padding:5px 16px;font-weight:700;text-decoration:none;color:var(--ink);display:inline-flex;align-items:center;gap:6px;font-size:.95rem}
+.pill:hover{border-color:var(--sky)}
+.pill svg{width:18px;height:18px}
+
+/* home */
+.hero{display:grid;gap:8px;margin-block:6px 18px}
+.hero h1{font-size:clamp(2.1rem,5.5vw,3.3rem);color:var(--brand)}
+.hero p{margin:0;color:var(--soft);max-width:60ch}
+.tl{position:relative;margin:18px 0 26px;padding:12px 0 6px;overflow-x:auto}
+.tl-track{position:relative;height:132px;margin-inline:72px}
+.tl-line{position:absolute;left:0;right:0;top:58px;height:4px;border-radius:2px;background:var(--line)}
+.tl-dot{position:absolute;top:50px;width:20px;height:20px;margin-left:-10px;border-radius:50%;border:4px solid var(--card);background:var(--sky);box-shadow:0 0 0 2px var(--sky)}
+.tl-lab{position:absolute;width:160px;margin-left:-80px;font-size:.78rem;line-height:1.2;text-align:center;text-decoration:none;color:var(--ink)}
+.tl-lab b{display:block;font-family:var(--display);font-size:.95rem;color:var(--brand)}
+.tl-lab.up{bottom:80px}
+.tl-lab.down{top:78px}
+.tl-lab:hover b{text-decoration:underline}
+.tl-ticks{position:absolute;left:0;right:0;top:0;height:0}
+.tl-tick{position:absolute;top:44px;font-size:.7rem;color:var(--soft);transform:translateX(-50%)}
+.tools{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin-bottom:18px}
+.search{display:flex;align-items:center;gap:8px;background:var(--card);border:2px solid var(--line);border-radius:14px;padding:6px 12px;flex:1;min-width:min(100%,260px);max-width:460px}
+.search:focus-within{border-color:var(--sky)}
+.search svg{width:22px;height:22px;color:var(--soft);flex:none}
+.search input{border:0;background:transparent;font:inherit;color:var(--ink);width:100%;min-width:0;outline:none}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{border:2px solid var(--line);background:var(--card);border-radius:999px;padding:3px 12px;font-weight:700;font-size:.9rem}
+.chip[aria-pressed="true"]{background:var(--brand);border-color:var(--brand);color:var(--paper)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:18px}
+.tcard{display:flex;flex-direction:column;background:var(--card);border-radius:16px;overflow:hidden;text-decoration:none;color:var(--ink);box-shadow:var(--shadow);border:2px solid transparent}
+.tcard:hover{border-color:var(--sky)}
+.tcard img{width:100%;aspect-ratio:16/10;object-fit:cover;display:block;background:var(--brand-soft)}
+.tcard .b{padding:12px 14px 14px;display:grid;gap:4px}
+.tcard .nm{font-family:var(--display);font-weight:700;font-size:1.3rem;line-height:1.2}
+.tcard .meta{font-size:.9rem;color:var(--soft)}
+.reason{justify-self:start;font-size:.75rem;font-weight:700;letter-spacing:.03em;text-transform:uppercase;padding:2px 10px;border-radius:999px;background:var(--sky-soft);color:var(--ink)}
+.empty{color:var(--soft)}
+
+/* topic */
+.thead{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:28px;align-items:start;margin-bottom:22px}
+.thead h1{font-size:clamp(2.2rem,5.5vw,3.4rem);color:var(--brand)}
+.thead .when{font-size:1.05rem;color:var(--soft);margin:6px 0 10px}
+.thead .lead{font-size:1.22rem;line-height:1.55;margin:0 0 14px}
+.thead figure{margin:0}
+.thead img{width:100%;aspect-ratio:4/3;object-fit:cover;border-radius:18px;box-shadow:var(--shadow);background:var(--brand-soft)}
+.thead figcaption{font-size:.85rem;color:var(--soft);margin-top:6px}
+.read{display:inline-flex;align-items:center;gap:8px;border:0;background:var(--sun);color:#142235;font-weight:700;border-radius:999px;padding:8px 18px}
+.read svg{width:20px;height:20px}
+.read.small{padding:3px 12px;font-size:.85rem;background:var(--sun-soft);color:var(--ink)}
+.read.small svg{width:16px;height:16px}
+.read[aria-pressed="true"]{background:var(--rose);color:#fff}
+.facts-box{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,190px),1fr));gap:2px;background:var(--line);border-radius:16px;overflow:hidden;margin-bottom:22px;box-shadow:var(--shadow)}
+.facts-box div{background:var(--card);padding:12px 16px}
+.facts-box dt{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.facts-box dd{margin:2px 0 0;font-weight:700;line-height:1.35}
+.jump{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:26px;padding-bottom:16px;border-bottom:2px solid var(--line)}
+.jump a{font-size:.88rem;font-weight:700;text-decoration:none;padding:4px 12px;border-radius:8px;background:var(--brand-soft);color:var(--ink)}
+.cols{display:grid;grid-template-columns:minmax(0,1fr) 330px;gap:32px;align-items:start}
+.main{display:grid;gap:22px;min-width:0}
+.sec{background:var(--card);border-radius:18px;padding:22px 24px;box-shadow:var(--shadow);scroll-margin-top:16px}
+.sec-h{display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-bottom:6px}
+.sec h2{font-size:1.65rem;flex:1;min-width:0}
+.sec p{margin:10px 0 0;max-width:68ch}
+.s.on{background:var(--sun-soft);box-shadow:0 0 0 6px var(--sun-soft);border-radius:4px}
+.from{margin-top:14px;padding-top:12px;border-top:1px dashed var(--line);display:flex;flex-wrap:wrap;gap:8px;align-items:center;font-size:.9rem}
+.from b{color:var(--soft)}
+.src-link{display:inline-flex;align-items:center;gap:6px;text-decoration:none;color:var(--ink);background:var(--sky-soft);border-radius:999px;padding:2px 12px 2px 4px;font-weight:700}
+.num{display:inline-grid;place-items:center;min-width:24px;height:24px;padding:0 4px;border-radius:12px;background:var(--sky);color:var(--paper);font-size:.78rem;font-weight:700;flex:none;font-variant-numeric:tabular-nums}
+.num.vid{background:var(--rose)}
+.num.book{background:var(--sun);color:#142235}
+.side{display:grid;gap:22px;position:sticky;top:calc(env(safe-area-inset-top,0px) + 12px)}
+.box{background:var(--card);border-radius:18px;padding:18px;box-shadow:var(--shadow)}
+.box h2{font-size:1.3rem;margin-bottom:10px}
+.vocab{display:grid;gap:8px;margin:0}
+.vocab div{border-left:4px solid var(--sky);padding:2px 0 2px 10px}
+.vocab dt{font-weight:700}
+.vocab dd{margin:0;font-size:.95rem;color:var(--soft)}
+.events{list-style:none;margin:0;padding:0;display:grid;gap:0}
+.events li{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;position:relative;padding-bottom:12px}
+.events li::before{content:"";position:absolute;left:81px;top:8px;bottom:-4px;width:2px;background:var(--line)}
+.events li:last-child::before{display:none}
+.events .y{font-family:var(--display);font-weight:700;color:var(--brand);text-align:right;font-variant-numeric:tabular-nums}
+.events .t{padding-left:16px;position:relative;font-size:.95rem;line-height:1.45}
+.events .t::before{content:"";position:absolute;left:-1px;top:7px;width:10px;height:10px;border-radius:50%;background:var(--sky);transform:translateX(-50%)}
+.map img{width:100%;border-radius:10px;background:#fff;display:block}
+.map figcaption{font-size:.8rem;color:var(--soft);margin-top:6px}
+.teacher{border:2px dashed var(--line);border-radius:14px;padding:10px 14px;font-size:.92rem}
+.teacher summary{font-weight:700;cursor:pointer;color:var(--soft)}
+.teacher p{margin:8px 0 0}
+
+h2.big{font-size:1.9rem;margin:44px 0 4px}
+.sub{color:var(--soft);margin:0 0 16px}
+.photos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
+.photos figure{margin:0;background:var(--card);border-radius:16px;overflow:hidden;box-shadow:var(--shadow)}
+.photos img{width:100%;aspect-ratio:4/3;object-fit:cover;display:block;background:var(--brand-soft)}
+.photos figure.is-map img{object-fit:contain;background:#fff}
+.photos figcaption{padding:10px 14px;font-size:.95rem}
+.credit{display:block;color:var(--soft);font-size:.78rem;margin-top:3px}
+.credit a{color:var(--soft)}
+.videos{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
+.vcard{display:flex;flex-direction:column;background:var(--card);border-radius:16px;overflow:hidden;box-shadow:var(--shadow);text-decoration:none;color:var(--ink);border:2px solid transparent}
+.vcard:hover{border-color:var(--rose)}
+.vthumb{position:relative;aspect-ratio:16/9;background:var(--rose-soft)}
+.vthumb img{width:100%;height:100%;object-fit:cover;display:block}
+.play{position:absolute;inset:0;display:grid;place-items:center}
+.play span{width:62px;height:62px;border-radius:50%;background:var(--rose);display:grid;place-items:center;box-shadow:0 4px 16px rgba(0,0,0,.3)}
+.play svg{width:26px;height:26px;color:#fff;margin-left:4px}
+.vbody{padding:12px 16px 16px;display:grid;gap:4px}
+.vbody .t{font-weight:700;display:flex;gap:8px;align-items:flex-start;line-height:1.35}
+.vbody .c{color:var(--soft);font-size:.9rem}
+.tools2{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr));gap:18px}
+.book{display:grid;grid-template-columns:auto minmax(0,1fr);gap:2px 14px;background:var(--card);border-radius:16px;padding:14px;box-shadow:var(--shadow);text-decoration:none;color:var(--ink);border:2px solid transparent}
+.book:hover{border-color:var(--sun)}
+.spine{grid-row:span 4;width:42px;height:58px;border-radius:3px 8px 8px 3px;background:var(--brand);display:grid;place-items:center;color:var(--sun);box-shadow:inset 6px 0 0 rgba(0,0,0,.18)}
+.spine svg{width:22px;height:22px}
+.book .t{font-weight:700;line-height:1.3}
+.book .a{color:var(--soft);font-size:.9rem}
+.lv{display:flex;gap:6px;flex-wrap:wrap}
+.tag{font-size:.75rem;font-weight:700;padding:1px 9px;border-radius:999px;background:var(--brand-soft);color:var(--ink)}
+.tag.hard{background:var(--sun-soft)}
+.eb{background:var(--card);border-radius:16px;padding:16px 18px;box-shadow:var(--shadow);display:grid;gap:8px;align-content:start}
+.eb h3{font-family:var(--body);font-size:1.1rem}
+.eb p{margin:0;font-size:.95rem;color:var(--soft)}
+.eb .row{display:flex;gap:8px;flex-wrap:wrap}
+.sources{display:grid;gap:12px}
+.source{background:var(--card);border-radius:16px;padding:14px 18px;box-shadow:var(--shadow);display:grid;grid-template-columns:auto minmax(0,1fr);gap:4px 14px;scroll-margin-top:16px}
+.source .num{min-width:32px;height:32px;border-radius:16px;font-size:.9rem;grid-row:span 3}
+.source h3{font-family:var(--body);font-size:1.08rem;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.source h3 a{color:var(--ink)}
+.source p{margin:0;font-size:.95rem}
+.site{color:var(--soft)}
+.cite{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-top:6px;background:var(--paper);border:2px dashed var(--line);border-radius:10px;padding:6px 10px;font-size:.92rem}
+.cite code{font-family:var(--body);flex:1;min-width:0;user-select:all}
+.copy{border:0;background:var(--brand);color:var(--paper);font-weight:700;border-radius:8px;padding:2px 12px;font-size:.82rem}
+.helper{margin-top:20px;background:var(--brand-soft);border-radius:16px;padding:16px 20px}
+.helper h3{font-size:1.25rem;color:var(--brand);margin-bottom:6px}
+.helper p,.helper li{margin:4px 0}
+.note{font-size:.9rem;color:var(--soft);margin-top:28px}
+.foot{margin-top:96px;padding-top:14px;border-top:1px solid var(--line);display:flex;justify-content:flex-end}
+.teacher-link{display:inline-flex;align-items:center;gap:5px;font-size:.75rem;color:var(--soft);text-decoration:none;opacity:.75;padding:4px 6px}
+.teacher-link:hover{opacity:1;text-decoration:underline}
+.teacher-link svg{width:13px;height:13px}
+@media (max-width:860px){.thead,.cols{grid-template-columns:minmax(0,1fr)}.side{position:static}}
+@media (prefers-reduced-motion:reduce){*{scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="bar">
+    <a class="brand" href="#">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><circle cx="20" cy="20" r="19" fill="var(--brand)"/><path d="M9 9l2 11h18l2-11-7 6h-8z" fill="var(--sun)"/><path d="M9 9V5M31 9V5" stroke="var(--sun)" stroke-width="2" stroke-linecap="round"/><ellipse cx="20" cy="23" rx="10" ry="9" fill="var(--sun)"/><circle cx="16" cy="21" r="1.6" fill="var(--brand)"/><circle cx="24" cy="21" r="1.6" fill="var(--brand)"/><path d="M18.5 25h3l-1.5 1.6z" fill="var(--brand)"/></svg>
+      <span>Lynx Journeys<small>4th Grade Migration Research</small></span>
+    </a>
+    <span class="spacer"></span>
+    <a class="pill" id="homeBtn" href="#" hidden>All topics</a>
+  </nav>
+  <main id="app"><p class="empty">Loading…</p></main>
+  <footer class="foot">
+    <a class="teacher-link" href="admin.html"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Teacher settings</a>
+  </footer>
+</div>
+
+<script>
+const ICON = {
+  speak:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9H4z" fill="currentColor"/><path d="M16 9a4 4 0 0 1 0 6M18.5 6.5a7.5 7.5 0 0 1 0 11"/></svg>',
+  stop:'<svg viewBox="0 0 24 24" aria-hidden="true"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></svg>',
+  search:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg>',
+  play:'<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 4l13 8-13 8z" fill="currentColor"/></svg>',
+  book:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 5a2 2 0 0 1 2-2h13v16H6a2 2 0 0 0-2 2z"/><path d="M4 19V5M8 7h7"/></svg>',
+  ext:'<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></svg>'
+};
+const esc = s => String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const app = document.getElementById('app');
+let TOPICS = [], filter = 'all', query = '', currentTopic = null;
+
+/* ---------- read aloud: recorded Siri voice, device voice as backup ---------- */
+const player = new Audio();
+const hasTTS = 'speechSynthesis' in window;
+let speakingBtn = null, queue = [];
+function bestVoice(){
+  const vs = hasTTS ? speechSynthesis.getVoices().filter(v => /^en[-_](US|GB|AU|CA)/i.test(v.lang)) : [];
+  const rank = v => (/premium|neural|natural|enhanced/i.test(v.name) ? 0 : /google|microsoft (aria|jenny|guy)/i.test(v.name) ? 1 : /samantha|ava|allison|karen|daniel/i.test(v.name) ? 2 : 3) + (/en[-_]US/i.test(v.lang) ? 0 : .5);
+  return vs.sort((a, b) => rank(a) - rank(b))[0];
+}
+function stopSpeaking(){
+  queue = []; player.onended = player.onerror = null; player.pause();
+  if (hasTTS) speechSynthesis.cancel();
+  document.querySelectorAll('.s.on').forEach(e => e.classList.remove('on'));
+  if (speakingBtn){ speakingBtn.setAttribute('aria-pressed','false'); speakingBtn.innerHTML = speakingBtn.dataset.label; speakingBtn = null; }
+}
+function highlight(el){
+  document.querySelectorAll('.s.on').forEach(e => e.classList.remove('on'));
+  el.classList.add('on');
+  const r = el.getBoundingClientRect();
+  if (r.top < 0 || r.bottom > innerHeight) el.scrollIntoView({block:'center', behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth'});
+}
+function next(){
+  const btn = speakingBtn;
+  if (!queue.length){ stopSpeaking(); return; }
+  const el = queue.shift(); highlight(el);
+  const file = currentTopic?.audio?.[el.textContent];
+  const fallback = () => {
+    if (!hasTTS || speakingBtn !== btn){ if (speakingBtn === btn) next(); return; }
+    const u = new SpeechSynthesisUtterance(el.textContent);
+    const v = bestVoice(); if (v) u.voice = v;
+    u.rate = .95;
+    u.onend = () => { if (speakingBtn === btn) setTimeout(next, 250); };
+    speechSynthesis.speak(u);
+  };
+  if (!file){ fallback(); return; }
+  player.src = 'audio/' + file;
+  player.onended = () => { if (speakingBtn === btn) setTimeout(next, 350); };
+  player.onerror = () => { player.onerror = null; fallback(); };
+  player.play().catch(fallback);
+}
+function speakEls(els, btn){
+  if (speakingBtn === btn){ stopSpeaking(); return; }
+  stopSpeaking();
+  speakingBtn = btn; btn.dataset.label = btn.innerHTML;
+  btn.setAttribute('aria-pressed','true'); btn.innerHTML = ICON.stop + ' Stop';
+  queue = [...els]; next();
+}
+if (hasTTS) speechSynthesis.getVoices();
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-read]'); if (!b) return;
+  const scope = b.dataset.read === 'all' ? app : document.getElementById(b.dataset.read);
+  speakEls([...scope.querySelectorAll('.s')], b);
+});
+const readBtn = (target, label, small) => `<button class="read${small ? ' small' : ''}" data-read="${target}" aria-pressed="false">${ICON.speak} ${label}</button>`;
+
+/* ---------- copy citation ---------- */
+document.addEventListener('click', e => {
+  const b = e.target.closest('.copy'); if (!b) return;
+  const code = b.parentElement.querySelector('code');
+  const done = () => { b.textContent = 'Copied!'; setTimeout(() => b.textContent = 'Copy', 1500); };
+  const select = () => { const r = document.createRange(); r.selectNodeContents(code); const s = getSelection(); s.removeAllRanges(); s.addRange(r); };
+  if (navigator.clipboard) navigator.clipboard.writeText(code.textContent).then(done, select); else select();
+});
+
+/* ---------- home ---------- */
+const REASONS = ['Forced removal', 'Escape to freedom', 'Famine', 'Natural disaster', 'Human-made disaster', 'War', 'Opportunity'];
+function timelineHtml(){
+  if (!TOPICS.length) return '';
+  // Events are spaced evenly in date order so nearby years never overlap.
+  const sorted = [...TOPICS].sort((a, b) => a.startYear - b.startYear);
+  const n = sorted.length, pos = i => ((i + .5) / n * 100).toFixed(2);
+  return `<div class="tl" aria-label="Timeline of events"><div class="tl-track" style="min-width:${n * 92}px">
+    <div class="tl-line"></div>
+    ${sorted.map((t, i) => `<span class="tl-dot" style="left:${pos(i)}%"></span>
+      <a class="tl-lab ${i % 2 ? 'down' : 'up'}" style="left:${pos(i)}%" href="#${t.slug}"><b>${esc(t.years)}</b>${esc(t.name.replace(/^The /, '').replace(/\s*\(\d{4}\)/, ''))}</a>`).join('')}
+  </div></div>`;
+}
+function renderHome(){
+  currentTopic = null;
+  document.getElementById('homeBtn').hidden = true;
+  document.title = 'Lynx Journeys';
+  const present = REASONS.filter(r => TOPICS.some(t => t.reason === r));
+  app.innerHTML = `
+    <header class="hero">
+      <h1>Why do people move?</h1>
+      <p>Choose an event to research. Each page explains what happened, why people moved, where they went, and how it changed their lives, with sources you can cite.</p>
+    </header>
+    ${timelineHtml()}
+    <div class="tools">
+      <label class="search">${ICON.search}<input id="q" type="search" placeholder="Search events" aria-label="Search events" autocomplete="off" value="${esc(query)}"></label>
+      <div class="chips" role="group" aria-label="Reason">${[['all', 'All']].concat(present.map(r => [r, r])).map(([k, l]) => `<button class="chip" data-f="${esc(k)}" aria-pressed="${filter === k}">${esc(l)}</button>`).join('')}</div>
+    </div>
+    <div class="grid" id="grid"></div>`;
+  const q = document.getElementById('q');
+  q.addEventListener('input', () => { query = q.value; drawGrid(); });
+  app.querySelectorAll('.chip').forEach(c => c.addEventListener('click', () => {
+    filter = c.dataset.f; app.querySelectorAll('.chip').forEach(x => x.setAttribute('aria-pressed', x === c)); drawGrid();
+  }));
+  drawGrid();
+}
+function drawGrid(){
+  const ql = query.trim().toLowerCase();
+  const list = TOPICS.filter(t => (filter === 'all' || t.reason === filter) && (!ql || [t.name, t.place, t.reason, t.years].join(' ').toLowerCase().includes(ql)));
+  document.getElementById('grid').innerHTML = list.length ? list.map(t => `
+    <a class="tcard" href="#${t.slug}">
+      <img src="images/${esc(t.photos[0]?.file)}" alt="" loading="lazy">
+      <span class="b"><span class="reason">${esc(t.reason)}</span><span class="nm">${esc(t.name)}</span><span class="meta">${esc(t.years)} · ${esc(t.place)}</span></span>
+    </a>`).join('') : `<p class="empty">No events match “${esc(query)}”.</p>`;
+}
+
+/* ---------- topic ---------- */
+function renderTopic(t){
+  currentTopic = t;
+  document.getElementById('homeBtn').hidden = false;
+  document.title = t.name + ' · Lynx Journeys';
+  const pics = t.photos.filter(p => !p.map), map = t.photos.find(p => p.map);
+  const fromChips = sec => {
+    const s = (sec.from || []).filter(i => t.sources[i]).map(i => `<a class="src-link" href="#${t.slug}~src${i}"><span class="num">${i + 1}</span>${esc(t.sources[i].site)}</a>`);
+    return s.length ? `<div class="from"><b>Sources for this section:</b>${s.join('')}</div>` : '';
+  };
+  const eb = t.britannica;
+  const ebSearch = 'https://school.eb.com/levels/elementary/search/articles?query=' + encodeURIComponent(t.name.replace(/^The /, '').replace(/\s*\(\d{4}\)/, ''));
+  const ebLevel = eb && /\/students\//.test(eb.kidsUrl || '') ? 'middle' : 'elementary';
+  const ebArticle = eb ? `https://school.eb.com/levels/${ebLevel}/article/${encodeURIComponent(eb.pathSlug)}/${encodeURIComponent(eb.id)}` : null;
+  app.innerHTML = `
+  <article>
+    <header class="thead">
+      <div>
+        <span class="reason">${esc(t.reason)}</span>
+        <h1>${esc(t.name)}</h1>
+        <p class="when">${esc(t.years)} · ${esc(t.place)}</p>
+        <p class="lead" id="sec-intro"><span class="s">${esc(t.intro)}</span></p>
+        ${readBtn('all', 'Read the whole page to me')}
+      </div>
+      <figure><img src="images/${esc(pics[0]?.file)}" alt="${esc(pics[0]?.alt)}"><figcaption>${esc(pics[0]?.caption || '')}</figcaption></figure>
+    </header>
+    <dl class="facts-box">${t.keyFacts.map(f => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}</dd></div>`).join('')}</dl>
+    <nav class="jump" aria-label="Jump to">
+      ${t.sections.map(s => `<a href="#${t.slug}~${s.key}">${esc(s.title)}</a>`).join('')}
+      <a href="#${t.slug}~timeline">Timeline</a><a href="#${t.slug}~pics">Pictures</a><a href="#${t.slug}~vids">Videos</a><a href="#${t.slug}~books">Books &amp; articles</a><a href="#${t.slug}~sources">Sources &amp; citations</a>
+    </nav>
+    <div class="cols">
+      <div class="main">
+        ${t.sections.map(s => `
+          <section class="sec" id="sec-${s.key}">
+            <div class="sec-h"><h2>${esc(s.title)}</h2>${readBtn('sec-' + s.key, 'Read to me', true)}</div>
+            ${s.paragraphs.map(p => `<p><span class="s">${esc(p)}</span></p>`).join('')}
+            ${fromChips(s)}
+          </section>`).join('')}
+      </div>
+      <aside class="side">
+        <section class="box" id="sec-timeline"><h2>Timeline</h2>
+          <ol class="events">${t.timeline.map(e => `<li><span class="y">${esc(e.year)}</span><span class="t">${esc(e.text)}</span></li>`).join('')}</ol>
+        </section>
+        ${map ? `<figure class="box map"><h2>Map</h2><img src="images/${esc(map.file)}" alt="${esc(map.alt)}" loading="lazy"><figcaption>${esc(map.caption || '')} Map: ${esc(map.credit)} · <a href="${esc(map.source)}" target="_blank" rel="noopener">${esc(map.license)}</a></figcaption></figure>` : ''}
+        <section class="box" id="sec-words"><div class="sec-h"><h2>Words to know</h2>${readBtn('sec-words', 'Read', true)}</div>
+          <dl class="vocab">${t.vocab.map(v => `<div><dt class="s">${esc(v.word)}</dt><dd class="s">${esc(v.meaning)}</dd></div>`).join('')}</dl>
+        </section>
+        ${t.teacherNote ? `<details class="teacher"><summary>Note for teachers</summary><p>${esc(t.teacherNote)}</p></details>` : ''}
+      </aside>
+    </div>
+
+    <h2 class="big" id="sec-pics">Pictures</h2>
+    <p class="sub">Look closely. What do these pictures tell you about the people and places?</p>
+    <div class="photos">${t.photos.map(p => `
+      <figure class="${p.map ? 'is-map' : ''}"><img src="images/${esc(p.file)}" alt="${esc(p.alt)}" loading="lazy">
+        <figcaption>${esc(p.caption || p.alt)}<span class="credit">${p.map ? 'Map' : 'Photo'}: ${esc(p.credit)} · <a href="${esc(p.source)}" target="_blank" rel="noopener">${esc(p.license)}</a> · Wikimedia Commons</span></figcaption>
+      </figure>`).join('')}</div>
+
+    <h2 class="big" id="sec-vids">Videos</h2>
+    <p class="sub">Videos open on YouTube. Watch with your class or a grown-up.</p>
+    <div class="videos">${t.videos.map((v, i) => `
+      <a class="vcard" href="${esc(v.url)}" target="_blank" rel="noopener">
+        <div class="vthumb">${v.thumb ? `<img src="thumbs/${esc(v.thumb)}" alt="" loading="lazy">` : ''}<div class="play"><span>${ICON.play}</span></div></div>
+        <div class="vbody"><span class="t"><span class="num vid">V${i + 1}</span>${esc(v.title)}</span><span class="c">${esc(v.channel)}${v.minutes ? ` · about ${esc(v.minutes)} min` : ''}</span><span>${esc(v.about)}</span></div>
+      </a>`).join('')}</div>
+
+    <h2 class="big" id="sec-books">Books &amp; articles</h2>
+    <p class="sub">Log in to Epic or Britannica School the way your class usually does.</p>
+    <div class="tools2">
+      ${(t.books || []).map((b, i) => `
+        <a class="book" href="${esc(b.url)}" target="_blank" rel="noopener">
+          <span class="spine">${ICON.book}</span>
+          <span class="t">${esc(b.title)}</span>
+          <span class="a">${esc(b.author || '')}${b.author ? ' · ' : ''}Epic</span>
+          <span class="lv">${b.lexile ? `<span class="tag">${esc(b.lexile)}</span>` : ''}${b.age ? `<span class="tag hard">Ages ${esc(b.age)}+</span>` : ''}</span>
+          <span style="font-size:.92rem">${esc(b.about || '')}</span>
+        </a>`).join('')}
+      <div class="eb">
+        <h3>Britannica School</h3>
+        <p>${eb ? `Read the encyclopedia article “${esc(eb.title)}” at the ${ebLevel === 'middle' ? 'Middle' : 'Elementary'} level.` : 'Search the encyclopedia for this event at the Elementary level.'}</p>
+        <div class="row">
+          ${ebArticle ? `<a class="pill" href="${ebArticle}" target="_blank" rel="noopener">${ICON.ext} Open article</a>` : ''}
+          <a class="pill" href="${ebSearch}" target="_blank" rel="noopener">${ICON.search} Search Britannica School</a>
+        </div>
+      </div>
+      <div class="eb">
+        <h3>More on Epic</h3>
+        <p>Find more books and videos about this event.</p>
+        <div class="row"><a class="pill" href="https://www.getepic.com/app/search?q=${encodeURIComponent(t.name.replace(/^The /, '').replace(/\s*\(\d{4}\)/, ''))}" target="_blank" rel="noopener">${ICON.search} Search Epic</a></div>
+      </div>
+    </div>
+
+    <h2 class="big" id="sec-sources">Sources &amp; citations</h2>
+    <p class="sub">Use these to check facts and to list your sources. Copy a citation with the Copy button.</p>
+    <div class="sources">
+      ${t.sources.map((s, i) => `
+        <div class="source" id="src${i}">
+          <span class="num">${i + 1}</span>
+          <h3><a href="${esc(s.url)}" target="_blank" rel="noopener">${esc(s.title)}</a><span class="tag ${s.level === 'On level' ? '' : 'hard'}">${esc(s.level)}</span></h3>
+          <p><span class="site">${esc(s.site)}</span> · ${esc(s.about)}</p>
+          <div class="cite"><code>${esc(s.cite)}</code><button class="copy" type="button">Copy</button></div>
+        </div>`).join('')}
+      ${t.videos.map((v, i) => `
+        <div class="source" id="vsrc${i}">
+          <span class="num vid">V${i + 1}</span>
+          <h3><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title)}</a><span class="tag">Video</span></h3>
+          <p><span class="site">${esc(v.channel)}</span></p>
+          <div class="cite"><code>${esc(v.cite)}</code><button class="copy" type="button">Copy</button></div>
+        </div>`).join('')}
+      ${(t.books || []).map((b, i) => `
+        <div class="source">
+          <span class="num book">B${i + 1}</span>
+          <h3><a href="${esc(b.url)}" target="_blank" rel="noopener">${esc(b.title)}</a><span class="tag">Book</span></h3>
+          <p><span class="site">${esc(b.author || '')}${b.author ? ' · ' : ''}Epic</span></p>
+          <div class="cite"><code>${esc(b.cite)}</code><button class="copy" type="button">Copy</button></div>
+        </div>`).join('')}
+    </div>
+    <div class="helper">
+      <h3>Using sources in your paper</h3>
+      <ul>
+        <li>Check each fact in at least two sources.</li>
+        <li>Put facts in your own words. If you use someone's exact words, put them in quotation marks and say who wrote them.</li>
+        <li>In your writing, say where a fact came from: “According to the National Park Service, …”</li>
+        <li>At the end of your paper, list every source you used. Copy the citations above.</li>
+      </ul>
+    </div>
+    <p class="note">This page was written for 4th graders using the sources listed above. Images are from Wikimedia Commons and are shared under the license shown.</p>
+  </article>`;
+}
+
+/* ---------- routing: #slug or #slug~section ---------- */
+function route(){
+  stopSpeaking();
+  const [slug, part] = decodeURIComponent(location.hash.slice(1)).split('~');
+  const t = TOPICS.find(x => x.slug === slug);
+  if (!t){ app.dataset.slug = ''; renderHome(); window.scrollTo(0, 0); return; }
+  if (app.dataset.slug !== slug){ renderTopic(t); app.dataset.slug = slug; window.scrollTo(0, 0); }
+  if (part){
+    const id = part.startsWith('src') ? part : 'sec-' + part;
+    const el = document.getElementById(id);
+    if (el) setTimeout(() => { el.scrollIntoView({behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'auto' : 'smooth', block:'start'}); el.style.outline = '4px solid var(--sun)'; setTimeout(() => el.style.outline = '', 1600); }, 60);
+  }
+}
+window.addEventListener('hashchange', () => { if (!location.hash) app.dataset.slug = ''; route(); });
+
+/* Teachers hide topics in admin.html; the hidden list is read from the settings server. */
+async function loadHidden(){
+  const base = (window.LYNX_SETTINGS_URL || '').replace(/\/$/, '');
+  let cached = [];
+  try { cached = JSON.parse(localStorage.getItem('journeys-hidden') || '[]'); } catch {}
+  if (!base) return [];
+  try {
+    const ctl = new AbortController(); const timer = setTimeout(() => ctl.abort(), 4000);
+    const r = await fetch(base + '/api/visibility?site=journeys', {signal: ctl.signal, cache: 'no-store'});
+    clearTimeout(timer);
+    if (!r.ok) return cached;
+    const hidden = (await r.json()).hidden || [];
+    try { localStorage.setItem('journeys-hidden', JSON.stringify(hidden)); } catch {}
+    return hidden;
+  } catch { return cached; }
+}
+Promise.all([fetch('topics.json').then(r => r.json()), loadHidden()]).then(([d, hidden]) => {
+  TOPICS = d.filter(t => !hidden.includes(t.slug));
+  route();
+}).catch(() => { app.innerHTML = '<p class="empty">The topics could not load. Please refresh the page.</p>'; });
+</script>
+</body>
+</html>

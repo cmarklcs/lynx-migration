@@ -1,0 +1,92 @@
+{
+  "slug": "indian-ocean-tsunami-2004",
+  "name": "Indian Ocean Tsunami (2004)",
+  "reason": "Natural disaster",
+  "years": "2004",
+  "startYear": 2004,
+  "place": "Aceh, Indonesia, and countries around the Indian Ocean",
+  "intro": "On December 26, 2004, a huge earthquake shook the ocean floor near Sumatra, an island in Indonesia. It sent giant waves called a tsunami across the Indian Ocean. The waves hit 17 countries, and the Aceh province of Indonesia was hit the hardest. About 1.7 million people had to leave their homes.",
+  "keyFacts": [
+    {"label": "When", "value": "December 26, 2004"},
+    {"label": "Where", "value": "Aceh, Indonesia, plus Sri Lanka, India, Thailand, and other countries around the Indian Ocean"},
+    {"label": "Who moved", "value": "Families who lived along the coasts, especially in Aceh"},
+    {"label": "How many", "value": "About 1.7 million people were displaced (forced from their homes)"},
+    {"label": "Where they went", "value": "Temporary shelters and tents, then rebuilt homes and towns"}
+  ],
+  "timeline": [
+    {"year": "2004", "text": "On the morning of December 26, a magnitude 9.1 earthquake struck under the ocean near Sumatra, Indonesia."},
+    {"year": "2004", "text": "Within about 15 to 20 minutes, the first waves reached Banda Aceh, a city in Indonesia."},
+    {"year": "2004", "text": "Over the next hours, the waves crossed the Indian Ocean and reached Thailand, Sri Lanka, India, and even Africa."},
+    {"year": "2007", "text": "Most of the rebuilding work by the aid group World Vision was finished, including thousands of new homes."},
+    {"year": "2024", "text": "Twenty years later, students in Aceh practiced tsunami drills so they would be ready for the future."}
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "On December 26, 2004, a giant earthquake struck under the Indian Ocean. It happened off the west coast of Sumatra, an island in Indonesia. The earthquake measured 9.1, which makes it one of the strongest earthquakes ever recorded. The shaking lasted for about eight to ten minutes.",
+        "The earthquake suddenly moved a huge amount of ocean water. This made a tsunami, a series of giant ocean waves. In deep water, tsunami waves can travel up to 500 miles per hour. In Aceh, Indonesia, the waves reached as high as 167 feet and pushed up to 3 miles inland.",
+        "The waves hit 17 countries, from Indonesia and Thailand to Sri Lanka, India, and East Africa. About 230,000 people died or went missing. Indonesia lost the most people, more than 160,000, and most of them lived in Aceh. Many villages along the coasts were washed away."
+      ],
+      "from": [0, 1, 2, 3, 4]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "The waves destroyed houses, schools, roads, and fishing boats. In Aceh, more than 1,400 schools were wrecked. About 1.7 million people around the Indian Ocean were displaced. That means they were forced to leave their homes because their homes were gone or unsafe.",
+        "In 2004, the Indian Ocean had no official tsunami warning system. In Banda Aceh, the first waves came only 15 to 20 minutes after the earthquake. Few people knew that an earthquake could cause a tsunami, so there was little time to run to higher ground.",
+        "Salty ocean water also soaked the land. Salty soil is very hard to farm, so many farms were ruined. Fishing and tourism were hurt the most, because many boats and beach areas were destroyed. Many families lost their jobs as well as their homes."
+      ],
+      "from": [0, 1, 2, 3]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "Most survivors did not travel far away. They moved to safer places nearby while their towns were cleaned up and rebuilt. Aid workers gave families tarps to make shelters. Groups also set up Child-Friendly Spaces, where children could play and feel safe.",
+        "People and countries around the world sent help. Over 7 billion dollars was donated to rebuild the damaged areas. One aid group, World Vision, built 12,000 homes, 84 schools, and 27 health clinics in the countries that were hit.",
+        "Rebuilding took years. Most of World Vision's rebuilding work was done by 2007. Workers also planted 56,000 mangrove trees along the coast. These trees can help slow down big waves in the future."
+      ],
+      "from": [0, 2]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "The tsunami changed how countries around the Indian Ocean prepare for disasters. After 2004, countries built tsunami warning centers. Australia, India, and Indonesia led this new Indian Ocean warning system. Aceh also set up early warning systems near the shore.",
+        "Children in Aceh now learn what to do when the ground shakes. At one high school, students practice a tsunami drill on the 26th of every month. When the alarm sounds, they hide under their tables and then move quickly to a safe meeting place.",
+        "People in Aceh still remember the tsunami. A mosque in Lampuuk that was only partly damaged by the waves is now a symbol of remembrance. A huge power ship that the waves carried inland in Banda Aceh is now a place people visit. Twenty years later, the people of Aceh had rebuilt their towns, and many roads and buildings were stronger than before."
+      ],
+      "from": [0, 1, 3]
+    }
+  ],
+  "vocab": [
+    {"word": "tsunami", "meaning": "A series of giant ocean waves, usually caused by an earthquake under the sea."},
+    {"word": "earthquake", "meaning": "A sudden shaking of the ground caused by rocks moving deep under the Earth's surface."},
+    {"word": "magnitude", "meaning": "A number that tells how strong an earthquake is. Bigger numbers mean stronger earthquakes."},
+    {"word": "displaced", "meaning": "Forced to leave your home, often because of a disaster or war."},
+    {"word": "shelter", "meaning": "A place that keeps people safe and dry, like a tent or a simple building."},
+    {"word": "warning system", "meaning": "Tools and alarms that tell people a disaster is coming so they can get to safety."},
+    {"word": "mangrove", "meaning": "A tree that grows in salty water along coasts. Its roots can help slow down waves."}
+  ],
+  "teacherNote": "The teacher's topic list said \"Indonesian Tsunami 2003\"; the event happened on December 26, 2004. The page states plainly that about 230,000 people died, without graphic detail. Photos show a damaged city from the air (no people visible), a ship carried inland, and a map. The National Geographic video includes real footage of tsunami waves; please preview it.",
+  "photos": [
+    {"file": "indian-ocean-tsunami-2004-1.jpg", "alt": "Aerial view of Banda Aceh, Indonesia, with damaged buildings and flooded land stretching to the sea.", "caption": "This photo of Banda Aceh was taken from a helicopter three weeks after the tsunami.", "credit": "U.S. Navy photo by Photographer's Mate 1st Class John D. Yoder", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:US_Navy_050119-N-2560Y-298_Aerial_view_of_Banda_Aceh,_Sumatra,_three_weeks_after_a_Tsunami_devastated_the_coastal_region.jpg"},
+    {"file": "indian-ocean-tsunami-2004-2.jpg", "alt": "A large rusty power-generating ship sitting on grassy land far from the sea in Banda Aceh.", "caption": "The tsunami carried this huge power ship, the Apung 1, far inland in Banda Aceh, and today people visit it.", "credit": "Andy Doyle", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:Generator_ship_lands_5_km_inland_after_2004_Indian_Ocean_earthquake_and_tsunami;_Andy_Doyle;_July_2008.jpg"},
+    {"file": "indian-ocean-tsunami-2004-map.png", "map": true, "alt": "Map of the Indian Ocean with circles near Sumatra, Indonesia, and affected countries in orange, including Indonesia, Thailand, Sri Lanka, India, Somalia, and Kenya.", "caption": "The circles show where the earthquake started, and the orange countries were hit by the tsunami.", "credit": "Ævar Arnfjörð Bjarmason", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:2004_Indian_Ocean_earthquake_-_affected_countries.png"}
+  ],
+  "videos": [
+    {"title": "Tsunamis: The Biggest Waves", "url": "https://www.youtube.com/watch?v=V6cnFM55_Dw", "channel": "SciShow Kids", "about": "Explains how earthquakes under the sea make tsunamis and how people stay safe.", "minutes": 4, "cite": "\"Tsunamis: The Biggest Waves.\" SciShow Kids. 2017."},
+    {"title": "Tsunamis 101 | National Geographic", "url": "https://www.youtube.com/watch?v=_oPb_9gOdn4", "channel": "National Geographic", "about": "A short look at what causes tsunamis and why they are so powerful.", "minutes": 3, "cite": "\"Tsunamis 101 | National Geographic.\" National Geographic. 2015."}
+  ],
+  "sources": [
+    {"title": "2004 Indian Ocean earthquake and tsunami Facts for Kids", "site": "Kiddle", "url": "https://kids.kiddle.co/2004_Indian_Ocean_earthquake_and_tsunami", "level": "On level", "about": "A kids' encyclopedia article about the earthquake, the waves, and the damage they caused.", "cite": "\"2004 Indian Ocean earthquake and tsunami Facts for Kids.\" Kiddle."},
+    {"title": "JetStream Max: 2004 Indian Ocean Tsunami", "site": "National Oceanic and Atmospheric Administration (NOAA)", "url": "https://www.noaa.gov/jetstream/2004tsu_max", "level": "Challenging", "about": "Scientists at NOAA explain the earthquake, the wave heights, and how many people were affected.", "cite": "\"JetStream Max: 2004 Indian Ocean Tsunami.\" NOAA."},
+    {"title": "2004 Indian Ocean earthquake and tsunami: Facts and FAQs", "site": "World Vision", "url": "https://www.worldvision.org/disaster-relief-news-stories/2004-indian-ocean-earthquake-tsunami-facts", "level": "Challenging", "about": "An aid group describes what happened in Aceh and how families were helped and homes rebuilt.", "cite": "\"2004 Indian Ocean earthquake and tsunami: Facts and FAQs.\" World Vision. 2025."},
+    {"title": "After 20 years, the post-tsunami generation in Indonesia stays vigilant for future disasters", "site": "PBS NewsHour (Associated Press)", "url": "https://www.pbs.org/newshour/world/after-20-years-the-post-tsunami-generation-in-indonesia-stays-vigilant-for-future-disasters", "level": "Challenging", "about": "A news story about how young people in Aceh practice tsunami drills 20 years later.", "cite": "\"After 20 years, the post-tsunami generation in Indonesia stays vigilant for future disasters.\" PBS NewsHour. 2024."},
+    {"title": "Earth Science for Kids: Tsunamis", "site": "Ducksters", "url": "https://www.ducksters.com/science/earth_science/tsunamis.php", "level": "On level", "about": "Explains what tsunamis are, how fast they move, and how people stay safe.", "cite": "\"Earth Science for Kids: Tsunamis.\" Ducksters."}
+  ],
+  "britannica": {"title": "Indian Ocean tsunami of 2004", "kidsUrl": "https://kids.britannica.com/kids/article/Indian-Ocean-tsunami-of-2004/470932", "id": "470932", "pathSlug": "Indian-Ocean-tsunami-of-2004"}
+}

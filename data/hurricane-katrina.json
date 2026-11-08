@@ -1,0 +1,240 @@
+{
+  "slug": "hurricane-katrina",
+  "name": "Hurricane Katrina",
+  "reason": "Natural disaster",
+  "years": "2005",
+  "startYear": 2005,
+  "place": "New Orleans and the Gulf Coast, United States",
+  "intro": "In August 2005, Hurricane Katrina hit Louisiana, Mississippi, and Alabama. In New Orleans, the walls that held back the water broke, and about 80 percent of the city flooded. More than one million people had to leave their homes, and many New Orleans families started new lives in Houston and other cities.",
+  "keyFacts": [
+    {
+      "label": "When",
+      "value": "August 29, 2005 (the storm hit land)"
+    },
+    {
+      "label": "Where",
+      "value": "New Orleans, Louisiana, and the Gulf Coast of Mississippi and Alabama"
+    },
+    {
+      "label": "Who moved",
+      "value": "Families from New Orleans and other Gulf Coast towns"
+    },
+    {
+      "label": "How many",
+      "value": "More than 1 million people had to leave their homes"
+    },
+    {
+      "label": "Where they went",
+      "value": "Houston, San Antonio, Baton Rouge, Atlanta, and cities in all 50 states"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "Aug. 23, 2005",
+      "text": "A storm forms over the Bahamas and grows into Hurricane Katrina."
+    },
+    {
+      "year": "Aug. 28, 2005",
+      "text": "New Orleans orders everyone to leave the city for the first time ever."
+    },
+    {
+      "year": "Aug. 29, 2005",
+      "text": "Katrina hits Louisiana and Mississippi. Levees break, and about 80 percent of New Orleans floods."
+    },
+    {
+      "year": "Sept. 2005",
+      "text": "Thousands of people are taken by bus to shelters in Houston, including the Astrodome."
+    },
+    {
+      "year": "2006",
+      "text": "Only about 230,000 people live in New Orleans, less than half as many as before the storm."
+    },
+    {
+      "year": "2020",
+      "text": "New Orleans has about 390,000 people again, after years of rebuilding and new flood walls."
+    }
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "Hurricane Katrina formed near the Bahamas on August 23, 2005. Over the warm Gulf of Mexico, it grew into a Category 5 storm with winds of 175 miles per hour. On August 29, it hit southeast Louisiana and Mississippi with winds of about 125 miles per hour. A huge rise of seawater, called a storm surge, flooded the coast.",
+        "New Orleans is a city that sits lower than the sea around it. Tall walls called levees were supposed to keep the water out. During Katrina, the levees broke in more than 50 places. Water poured in, and about 80 percent of the city flooded, in some places up to 20 feet deep.",
+        "Katrina was one of the deadliest hurricanes in U.S. history. More than 1,800 people died. It was also the costliest hurricane ever to hit the United States, causing more than $100 billion in damage."
+      ],
+      "from": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "The day before the storm, the mayor ordered everyone to leave New Orleans. About 1.2 million people along the Gulf Coast evacuated, and most people in New Orleans left. But many people could not leave. Some did not have a car or money, and some were old or sick.",
+        "About 20,000 people took shelter in the Superdome, a large football stadium. It had no electricity or working bathrooms. After the flood, rescuers saved about 60,000 people from rooftops and flooded streets.",
+        "When the water finally drained away, many homes were ruined. Schools, stores, and jobs were gone too. Families could not come back right away because there was no safe place to live."
+      ],
+      "from": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "Starting in early September, buses carried thousands of people from New Orleans to Houston, Texas. Houston opened its giant Astrodome stadium as a shelter. More than 25,000 people lived there for a while, sleeping on cots on the stadium floor.",
+        "Many evacuees settled in Houston and decided to stay. Other families moved to San Antonio, Baton Rouge, and Atlanta. Some went to Mobile, Alabama, and others moved even farther away. Katrina families ended up living in all 50 states.",
+        "More than one million people had to leave their homes. It was the largest move of people in modern American history. Some families lived in shelters, hotels, or with relatives for months or even years."
+      ],
+      "from": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "Before Katrina, about 485,000 people lived in New Orleans. By 2006, only about 230,000 people lived there. Thousands of people never moved back. Many started new lives in Houston and other cities, where their children grew up and went to school.",
+        "Little by little, people rebuilt New Orleans. The government spent about $14 billion to build stronger flood walls, gates, and giant pumps. By 2020, the city had grown back to about 390,000 people.",
+        "Katrina also changed how the country gets ready for disasters. Congress said all levels of government must practice working together when a disaster strikes. Today, people who lived through Katrina share their stories so others can learn from them."
+      ],
+      "from": [
+        0,
+        2,
+        3
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "hurricane",
+      "meaning": "A huge, powerful storm with very strong winds and heavy rain that forms over warm ocean water."
+    },
+    {
+      "word": "levee",
+      "meaning": "A tall wall or bank of earth built to keep a river, lake, or sea from flooding the land."
+    },
+    {
+      "word": "storm surge",
+      "meaning": "A rise of seawater pushed onto land by a strong storm."
+    },
+    {
+      "word": "evacuate",
+      "meaning": "To leave a dangerous place to get to safety."
+    },
+    {
+      "word": "evacuee",
+      "meaning": "A person who has left their home to escape danger."
+    },
+    {
+      "word": "shelter",
+      "meaning": "A safe place where people can stay when they cannot be at home."
+    },
+    {
+      "word": "displaced",
+      "meaning": "Forced to leave your home and live somewhere else."
+    }
+  ],
+  "teacherNote": "Many people died in Katrina, and the page says so plainly without describing how. Photos show the flooded city from the air and an evacuee shelter, not injured people. Some news footage in the PBS video shows flooding and talks about children who felt scared; please preview it.",
+  "photos": [
+    {
+      "file": "hurricane-katrina-1.jpg",
+      "alt": "Aerial view of New Orleans neighborhoods covered by floodwater, with the city skyline in the distance.",
+      "caption": "After the levees broke, floodwater covered whole neighborhoods in New Orleans.",
+      "credit": "NOAA (Cmdr. Mark Moran, Lt. Phil Eastman, Lt. Dave Demers)",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Katrina-new-orleans-flooding3-2005.jpg"
+    },
+    {
+      "file": "hurricane-katrina-2.jpg",
+      "alt": "Rows of cots filling the floor of the Houston Astrodome, with people resting and walking between them.",
+      "caption": "Thousands of New Orleans families found shelter inside the Houston Astrodome in September 2005.",
+      "credit": "Andrea Booher / FEMA",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Katrina-14451.jpg"
+    },
+    {
+      "file": "hurricane-katrina-map.jpg",
+      "map": true,
+      "alt": "Map of the Gulf of Mexico showing Hurricane Katrina's path from the Bahamas across Florida to Louisiana and Mississippi, colored by storm strength.",
+      "caption": "This map shows Katrina's path. The colors show how strong the storm was at each point.",
+      "credit": "Supportstorm (Wikimedia Commons), using NOAA data",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Katrina_2005_track.png"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Hurricane Katrina survivor finds healing and new home in Houston 20 years later",
+      "url": "https://www.youtube.com/watch?v=4QNHZTyfK-U",
+      "channel": "KHOU 11",
+      "about": "A woman who left New Orleans after Katrina shares how Houston became her new home.",
+      "minutes": 4,
+      "cite": "\"Hurricane Katrina survivor finds healing and new home in Houston 20 years later.\" KHOU 11. 2025."
+    },
+    {
+      "title": "New documentary shares the stories of children who lived through Hurricane Katrina",
+      "url": "https://www.youtube.com/watch?v=RTJMZkMj6XM",
+      "channel": "PBS NewsHour",
+      "about": "People who were children during Katrina remember the storm and how it changed their lives.",
+      "minutes": 5,
+      "cite": "\"New documentary shares the stories of children who lived through Hurricane Katrina.\" PBS NewsHour. 2022."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Hurricane Katrina facts for kids",
+      "site": "Kiddle",
+      "url": "https://kids.kiddle.co/Hurricane_Katrina",
+      "level": "On level",
+      "about": "A kid-friendly encyclopedia article about the storm, the levee breaks, the evacuation, and rebuilding.",
+      "cite": "\"Hurricane Katrina facts for kids.\" Kiddle."
+    },
+    {
+      "title": "Astrodome facts for kids",
+      "site": "Kiddle",
+      "url": "https://kids.kiddle.co/Astrodome",
+      "level": "On level",
+      "about": "Explains how the Houston Astrodome became a temporary home for people from New Orleans.",
+      "cite": "\"Astrodome facts for kids.\" Kiddle."
+    },
+    {
+      "title": "Hurricane Katrina",
+      "site": "HISTORY",
+      "url": "https://www.history.com/articles/hurricane-katrina",
+      "level": "Challenging",
+      "about": "A detailed history of the storm, the flooding of New Orleans, and where evacuees settled.",
+      "cite": "\"Hurricane Katrina.\" HISTORY."
+    },
+    {
+      "title": "Hurricane Katrina: 10 Facts About the Deadly Storm",
+      "site": "HISTORY",
+      "url": "https://www.history.com/articles/hurricane-katrina-facts-legacy",
+      "level": "Challenging",
+      "about": "Ten key facts, including how many people were displaced and how the population of New Orleans changed.",
+      "cite": "\"Hurricane Katrina: 10 Facts About the Deadly Storm.\" HISTORY."
+    },
+    {
+      "title": "Hurricane Katrina - August 2005",
+      "site": "National Weather Service",
+      "url": "https://www.weather.gov/mob/katrina",
+      "level": "Challenging",
+      "about": "The National Weather Service's record of the storm's path, strength, and damage.",
+      "cite": "\"Hurricane Katrina - August 2005.\" National Weather Service, Mobile/Pensacola Office."
+    }
+  ],
+  "britannica": {
+    "title": "Hurricane Katrina",
+    "kidsUrl": "https://kids.britannica.com/students/article/Hurricane-Katrina/543498",
+    "id": "543498",
+    "pathSlug": "Hurricane-Katrina"
+  }
+}

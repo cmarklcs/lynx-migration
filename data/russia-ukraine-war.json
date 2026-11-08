@@ -1,0 +1,87 @@
+{
+  "slug": "russia-ukraine-war",
+  "name": "Russia–Ukraine War",
+  "reason": "War",
+  "years": "2022–today",
+  "startYear": 2022,
+  "place": "Ukraine and countries across Europe",
+  "intro": "On February 24, 2022, Russia invaded Ukraine, and a full-scale war began. Millions of Ukrainian families left their homes to find safety, either in other parts of Ukraine or in other countries. As of February 2026, the United Nations counted nearly 6 million refugees from Ukraine around the world.",
+  "keyFacts": [
+    {"label": "When", "value": "February 24, 2022, to today"},
+    {"label": "Where", "value": "Ukraine, and neighboring countries such as Poland, Moldova, Romania, Slovakia, and Hungary"},
+    {"label": "Who moved", "value": "Ukrainian families, most of them women and children"},
+    {"label": "How many", "value": "5,923,870 refugees from Ukraine recorded around the world, and about 3.7 million people displaced inside Ukraine, as of February 19, 2026 (UNHCR)"},
+    {"label": "Where they went", "value": "Safer parts of Ukraine, and countries across Europe, about 5.3 million of them"}
+  ],
+  "timeline": [
+    {"year": "2014", "text": "Conflict between Russia and Ukraine begins, with fighting in eastern Ukraine."},
+    {"year": "2022", "text": "On February 24, Russia launches a full-scale invasion of Ukraine."},
+    {"year": "2022", "text": "By March 3, more than one million people have fled Ukraine to neighboring countries."},
+    {"year": "2025", "text": "UNICEF and its partners reach 2.5 million children in Ukraine with help such as safe water, health care, and schooling."},
+    {"year": "2026", "text": "In February, as the war enters its fifth year, nearly 2.6 million Ukrainian children are still away from their homes."}
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "Ukraine is a large country in Eastern Europe, next to Russia. Fighting between the two countries began in eastern Ukraine in 2014. Then, on February 24, 2022, Russia invaded Ukraine with a much larger attack. This started a full-scale war that is still going on.",
+        "The war has caused great harm to people in Ukraine. Attacks have damaged homes, power plants, and water systems in many cities. More than 1,700 schools and other places of learning have been damaged or destroyed. The United Nations has recorded more than 14,000 civilians, or people who are not soldiers, killed since 2022."
+      ],
+      "from": [0, 1, 2, 3]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "People left their homes to stay safe from the fighting. In a UNICEF survey, safety was the most common reason young people gave for fleeing. Many families also lost their homes, or had no electricity, heat, or clean water. Some families had to move more than once as the fighting moved closer.",
+        "Most of the people who left Ukraine were women and children. In Poland, about 8 out of every 10 refugees were women and children. A chef who helped refugees at the border said people carried only what they could bring. Many hoped to return home when it was safe again."
+      ],
+      "from": [0, 1, 2]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "In the first days of the war, crowds of people waited at train stations in Kyiv, Ukraine's capital. Families traveled by train and bus to reach the borders. By March 3, 2022, more than one million people had already left Ukraine. Many crossed into Poland, where volunteers handed out hot meals at the border.",
+        "As of February 19, 2026, the United Nations counted 5,923,870 refugees from Ukraine around the world. About 5.3 million of them were living in countries across Europe. Neighboring countries such as Poland, Moldova, Romania, Slovakia, and Hungary took in many refugees. Another 3.7 million people moved to safer places inside Ukraine."
+      ],
+      "from": [0, 2]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "The war changed life for millions of Ukrainian children. As of February 2026, UNICEF said nearly 2.6 million children were still displaced from their homes. About 1.8 million of them were living as refugees in other countries. About one in three children inside Ukraine could not go to school in person full-time.",
+        "Refugee children had to start over in new countries, often in new schools and with a new language. Countries in Europe let Ukrainian refugees stay and get help through special protection programs. UNICEF helped refugee children join local schools and gave families health care, safe water, and money for basic needs.",
+        "Many people around the world have worked to help. Inside Ukraine, UNICEF repaired schools and water systems and gave families warm clothes and blankets for winter. About one million refugees and displaced people have returned home, but many places are still not safe. Ukrainian families continue to show courage as they wait for peace."
+      ],
+      "from": [1, 2, 3]
+    }
+  ],
+  "vocab": [
+    {"word": "refugee", "meaning": "A person who has to leave their country to escape war or danger."},
+    {"word": "displaced", "meaning": "Forced to leave your home and live somewhere else."},
+    {"word": "invade", "meaning": "To send an army into another country to attack or take it over."},
+    {"word": "civilian", "meaning": "A person who is not a soldier."},
+    {"word": "border", "meaning": "The line where one country ends and another country begins."},
+    {"word": "humanitarian aid", "meaning": "Help such as food, water, shelter, and medicine given to people in a crisis."}
+  ],
+  "teacherNote": "This is an ongoing war, and some students may have personal or family connections to Ukraine or Russia. The page stays neutral, focuses on refugee families, and mentions the civilian death toll once without detail. Numbers are given \"as of\" the date stated by UNHCR or UNICEF and will change.",
+  "photos": [
+    {"file": "russia-ukraine-war-1.jpg", "alt": "Young volunteers in bright yellow vests hand a drink to two boys sitting with suitcases at a crowded train station in Przemysl, Poland.", "caption": "Young volunteers handed out drinks to refugee children at a train station in Przemyśl, Poland, near the Ukrainian border, on February 28, 2022.", "credit": "Pakkin Leung", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Volunteer_help_the_refugee_in_Przemy%C5%9Bl_G%C5%82%C3%B3wny_train_station_20220228.jpg"},
+    {"file": "russia-ukraine-war-2.jpg", "alt": "People line up at a food station with signs in Ukrainian inside the main train station in Krakow, Poland.", "caption": "Free meals were given to Ukrainian refugees at the main train station in Kraków, Poland, in 2022.", "credit": "Kgbo", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Free_meals_for_Ukrainian_refugees_at_Krak%C3%B3w_G%C5%82%C3%B3wny_train_station,_2022.jpg"},
+    {"file": "russia-ukraine-war-map.jpg", "map": true, "alt": "A map of Europe with Ukraine in yellow and other countries shaded green by how many Ukrainian refugees they had, with numbers for Poland, Germany, the Czech Republic, and others.", "caption": "This map shows how many refugees from Ukraine had signed up for protection in each European country as of November 15, 2022.", "credit": "Rhoda Margesson and Derek E. Mix, Congressional Research Service", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Ukraine_Refugee_Crisis_flows.png"}
+  ],
+  "videos": [
+    {"title": "Play Spaces Help Ukrainian Refugee Children Heal", "url": "https://www.youtube.com/watch?v=bgjzgdU18fw", "channel": "UNICEF USA", "about": "A short UNICEF video about safe play and learning spaces that help Ukrainian refugee children feel better.", "minutes": 2, "cite": "\"Play Spaces Help Ukrainian Refugee Children Heal.\" UNICEF USA. 2024."}
+  ],
+  "sources": [
+    {"title": "War in Ukraine", "site": "TIME for Kids", "url": "https://www.timeforkids.com/g56/war-in-ukraine-2/?rl=en-880", "level": "On level", "about": "A kids' news article from March 2022 about the start of the war and the first refugees who fled to Poland.", "cite": "Joyce, Jaime. \"War in Ukraine.\" TIME for Kids. 2022."},
+    {"title": "More than a third of Ukraine's children remain displaced four years into war – UNICEF", "site": "UNICEF", "url": "https://www.unicef.org/press-releases/more-third-ukraines-children-remain-displaced-four-years-war-unicef", "level": "Challenging", "about": "A UNICEF news release with numbers on Ukrainian children who are refugees or displaced, and how UNICEF helps them.", "cite": "\"More than a third of Ukraine's children remain displaced four years into war – UNICEF.\" UNICEF. 2026."},
+    {"title": "Ukraine Emergency Four Years On: 2026 Update", "site": "UNHCR, the UN Refugee Agency", "url": "https://data.unhcr.org/en/documents/details/121256", "level": "Challenging", "about": "A UN Refugee Agency report with the number of refugees from Ukraine and people displaced inside Ukraine as of February 2026.", "cite": "\"Ukraine Emergency Four Years On: 2026 Update.\" UNHCR. 2026."},
+    {"title": "War in Ukraine: Support for children and families", "site": "UNICEF", "url": "https://www.unicef.org/emergencies/war-ukraine-pose-immediate-threat-children", "level": "Challenging", "about": "A UNICEF page about how the war affects children and how UNICEF helps families inside Ukraine and in nearby countries.", "cite": "\"War in Ukraine: Support for children and families.\" UNICEF. 2026."},
+    {"title": "Russia-Ukraine war", "site": "Britannica Kids", "url": "https://kids.britannica.com/kids/article/Russia-Ukraine-war/634203", "level": "On level", "about": "A kids' encyclopedia article about the Russia-Ukraine war.", "cite": "\"Russia-Ukraine war.\" Britannica Kids."}
+  ],
+  "britannica": {"title": "Russia-Ukraine war", "kidsUrl": "https://kids.britannica.com/kids/article/Russia-Ukraine-war/634203", "id": "634203", "pathSlug": "Russia-Ukraine-war"}
+}

@@ -1,0 +1,93 @@
+{
+  "slug": "japan-tsunami-2011",
+  "name": "Japan Earthquake and Tsunami (2011)",
+  "reason": "Natural disaster",
+  "years": "2011",
+  "startYear": 2011,
+  "place": "Tohoku region, northeastern Japan",
+  "intro": "On March 11, 2011, the strongest earthquake ever recorded in Japan shook the ocean floor near the country's northeast coast. It caused a tsunami that flooded towns along the coast and damaged a nuclear power plant in Fukushima. More than 470,000 people had to leave their homes.",
+  "keyFacts": [
+    {"label": "When", "value": "March 11, 2011, at 2:46 in the afternoon"},
+    {"label": "Where", "value": "The Tohoku region of northeastern Japan, including Miyagi, Iwate, and Fukushima"},
+    {"label": "Who moved", "value": "Families from coastal towns and from the area around the Fukushima Daiichi nuclear power plant"},
+    {"label": "How many", "value": "More than 470,000 people were evacuated from their homes"},
+    {"label": "Where they went", "value": "Evacuation centers, then temporary housing, and later new permanent homes"}
+  ],
+  "timeline": [
+    {"year": "2011", "text": "On March 11 at 2:46 p.m., a magnitude 9.0 earthquake struck off the northeast coast of Japan."},
+    {"year": "2011", "text": "Within 30 minutes, tsunami waves reached the coast and rushed over the seawalls."},
+    {"year": "2011", "text": "The tsunami knocked out power and cooling at the Fukushima Daiichi nuclear plant, and people living within 12 miles had to leave."},
+    {"year": "2011", "text": "In July, Japan's government made a 10-year plan to rebuild the damaged region."},
+    {"year": "2016", "text": "A memorial opened in the city of Ishinomaki to remember the disaster."},
+    {"year": "2023", "text": "About 30,000 people were still living away from their old homes."}
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "On March 11, 2011, at 2:46 in the afternoon, a huge earthquake struck under the Pacific Ocean. It happened off the northeast coast of Japan, in an area called Tohoku. The earthquake measured 9.0, the largest ever recorded in Japan. The ground shook for about six minutes.",
+        "The earthquake caused a tsunami, a series of giant ocean waves. The waves reached the coast in less than 30 minutes and rushed over the seawalls. In some places the water rose almost 130 feet high. Near the city of Sendai, the water flowed up to 6 miles inland.",
+        "More than 18,000 people died or were never found. Most of the damage came from the tsunami, not the shaking. More than 123,000 houses were completely destroyed. The waves even crossed the Pacific Ocean and were measured in more than 25 countries."
+      ],
+      "from": [0, 1, 2]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "Many families had to leave because the tsunami destroyed their homes and neighborhoods. Whole towns along the coast were flooded. Millions of homes lost electricity, and more than a million homes lost running water.",
+        "The tsunami also damaged the Fukushima Daiichi nuclear power plant. The water knocked out the plant's power, so it could not keep three of its reactors cool. The reactors were badly damaged and released radiation, a kind of energy that can make people sick. To keep people safe, the government ordered everyone living within 12 miles (20 kilometers) of the plant to evacuate.",
+        "In all, more than 470,000 people were evacuated from their homes. About 165,000 of them were from Fukushima prefecture. Up to 100,000 children were displaced by the disaster."
+      ],
+      "from": [0, 1, 2, 3]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "At first, many families stayed in evacuation centers. These centers had community kitchens where people could get meals. Aid groups set up Child-Friendly Spaces where children could play and feel safe.",
+        "Later, many families moved into temporary housing while their towns were rebuilt. In 2016, about 60,800 people still lived in temporary housing. By 2018, about 92 percent of the planned new public housing was finished.",
+        "Some people could not go home for many years. Families from near the nuclear plant waited until it was safe to return. The government cleaned up towns and lifted evacuation orders in almost all areas. But a small area close to the plant was still closed, called a \"difficult-to-return\" area."
+      ],
+      "from": [2, 3]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "In July 2011, Japan's government made a 10-year plan to rebuild. Workers cleared the debris and rebuilt most of the roads, bridges, railways, and airports. Towns built new seawalls and made better plans to help people evacuate.",
+        "The number of evacuees went down year by year as people moved into new homes. By May 2023, about 30,000 people were still evacuees. Only about 1,000 of them were still in temporary housing.",
+        "Scientists studied the tsunami to learn how to keep people safer. They collected more than 6,400 measurements of the waves. Warning systems helped save many lives, both in Japan and across the Pacific Ocean. In 2016, a memorial opened in the city of Ishinomaki so people can remember those who were lost."
+      ],
+      "from": [0, 1, 2, 3]
+    }
+  ],
+  "vocab": [
+    {"word": "tsunami", "meaning": "A series of giant ocean waves, usually caused by an earthquake under the sea."},
+    {"word": "magnitude", "meaning": "A number that tells how strong an earthquake is. Bigger numbers mean stronger earthquakes."},
+    {"word": "evacuate", "meaning": "To leave a dangerous place to get to safety."},
+    {"word": "nuclear power plant", "meaning": "A place that makes electricity using the energy stored inside tiny particles called atoms."},
+    {"word": "radiation", "meaning": "A kind of energy. Large amounts of it can make people sick."},
+    {"word": "temporary housing", "meaning": "Homes where people live for a short time until they can move into a permanent home."},
+    {"word": "seawall", "meaning": "A strong wall built along the coast to hold back ocean waves."}
+  ],
+  "teacherNote": "The page states plainly that more than 18,000 people died or were never found, without graphic detail. It explains the Fukushima nuclear accident briefly and calmly. Photos show damage from the air with no people visible, a damaged building with the \"Miracle Pine Tree,\" and a map. The National Geographic video includes real footage of tsunami waves; please preview it.",
+  "photos": [
+    {"file": "japan-tsunami-2011-1.jpg", "alt": "Aerial view of a coastal area in Kesennuma, Japan, where only a few buildings stand among flattened ground and debris next to the harbor.", "caption": "This photo of the fishing port in Kesennuma was taken from a helicopter two days after the tsunami.", "credit": "U.S. Navy photo by Mass Communication Specialist 3rd Class Dylan McCord", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:An_aerial_view_of_tsunami_damage_in_an_area_north_of_Sendai,_Japan,_taken_from_a_U.S._Navy_helicopter.jpg"},
+    {"file": "japan-tsunami-2011-2.jpg", "alt": "A white building with a collapsed section stands near the water, with one tall pine tree behind it under a blue sky.", "caption": "In Rikuzentakata, a damaged youth hostel and a lone pine tree called the Miracle Pine Tree still stood in 2023.", "credit": "Morio", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Rikuzentakata_Youth_Hostel_(Earthquake_ruin)_and_Miracle_Pine_Tree_2023_eye-level.jpg"},
+    {"file": "japan-tsunami-2011-map.png", "map": true, "alt": "Map of Japan with a red X in the ocean off the northeast coast and the northeastern regions colored red and orange.", "caption": "The red X shows where the earthquake started, and the red areas in northeastern Japan shook the hardest.", "credit": "Pekachu, using Japan Meteorological Agency data", "license": "CC BY-SA 3.0", "source": "https://commons.wikimedia.org/wiki/File:Shindomap_2011-03-11_Tohoku_earthquake.png"}
+  ],
+  "videos": [
+    {"title": "Tsunamis: The Biggest Waves", "url": "https://www.youtube.com/watch?v=V6cnFM55_Dw", "channel": "SciShow Kids", "about": "Explains how earthquakes under the sea make tsunamis and how people stay safe.", "minutes": 4, "cite": "\"Tsunamis: The Biggest Waves.\" SciShow Kids. 2017."},
+    {"title": "Tsunamis 101 | National Geographic", "url": "https://www.youtube.com/watch?v=_oPb_9gOdn4", "channel": "National Geographic", "about": "A short look at what causes tsunamis and why they are so powerful.", "minutes": 3, "cite": "\"Tsunamis 101 | National Geographic.\" National Geographic. 2015."}
+  ],
+  "sources": [
+    {"title": "2011 Tōhoku earthquake and tsunami Facts for Kids", "site": "Kiddle", "url": "https://kids.kiddle.co/2011_T%C5%8Dhoku_earthquake_and_tsunami", "level": "On level", "about": "A kids' encyclopedia article about the earthquake, the tsunami, and the Fukushima nuclear accident.", "cite": "\"2011 Tōhoku earthquake and tsunami Facts for Kids.\" Kiddle."},
+    {"title": "On This Day: 2011 Tohoku Earthquake and Tsunami", "site": "NOAA National Centers for Environmental Information", "url": "https://www.ncei.noaa.gov/news/day-2011-japan-earthquake-and-tsunami", "level": "Challenging", "about": "NOAA scientists explain how the earthquake and tsunami happened and what they damaged.", "cite": "\"On This Day: 2011 Tohoku Earthquake and Tsunami.\" NOAA National Centers for Environmental Information."},
+    {"title": "Great East Japan Earthquake", "site": "Reconstruction Agency, Government of Japan", "url": "https://www.reconstruction.go.jp/english/topics/GEJE/", "level": "Challenging", "about": "Japan's government gives official numbers for damage, evacuees, and Fukushima evacuation orders.", "cite": "\"Great East Japan Earthquake.\" Reconstruction Agency, Government of Japan."},
+    {"title": "2011 Japan earthquake and tsunami: Facts, FAQs, how to help", "site": "World Vision", "url": "https://www.worldvision.org/disaster-relief-news-stories/2011-japan-earthquake-and-tsunami-facts", "level": "Challenging", "about": "An aid group describes evacuation centers, temporary housing, and how the region rebuilt.", "cite": "\"2011 Japan earthquake and tsunami: Facts, FAQs, how to help.\" World Vision. 2019."},
+    {"title": "Japan earthquake and tsunami of 2011", "site": "Britannica Kids", "url": "https://kids.britannica.com/kids/article/Japan-earthquake-and-tsunami-of-2011/702799", "level": "On level", "about": "A kids' encyclopedia article about the 2011 disaster (sign in through Britannica School).", "cite": "\"Japan earthquake and tsunami of 2011.\" Britannica Kids."}
+  ],
+  "britannica": {"title": "Japan earthquake and tsunami of 2011", "kidsUrl": "https://kids.britannica.com/kids/article/Japan-earthquake-and-tsunami-of-2011/702799", "id": "702799", "pathSlug": "Japan-earthquake-and-tsunami-of-2011"}
+}

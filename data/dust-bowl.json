@@ -1,0 +1,72 @@
+{
+  "slug": "dust-bowl",
+  "name": "The Dust Bowl",
+  "reason": "Natural disaster",
+  "years": "1930s",
+  "startYear": 1930,
+  "place": "Great Plains, United States",
+  "intro": "In the 1930s, a long drought and huge dust storms struck the southern Great Plains. Farmers could not grow crops, and the Great Depression made life even harder. About 2.5 million people left the Plains states, and many traveled west to California.",
+  "keyFacts": [
+    {"label": "When", "value": "1930–1939"},
+    {"label": "Where", "value": "Oklahoma, Texas, Kansas, Colorado, and New Mexico"},
+    {"label": "Who moved", "value": "Farm families and other people from the Plains"},
+    {"label": "How many", "value": "About 2.5 million people left the Plains states by 1940"},
+    {"label": "Where they went", "value": "Nearby towns and states, and west to California"}
+  ],
+  "timeline": [
+    {"year": "1930", "text": "A long drought begins on the Plains."},
+    {"year": "1931", "text": "Dust storms begin to blow across the dry farmland."},
+    {"year": "1934", "text": "A huge storm carries dust all the way to Chicago, New York City, and Washington, D.C."},
+    {"year": "1935", "text": "On April 14, the Black Sunday storm turns day into night. Congress passes a law to protect the soil."},
+    {"year": "1939", "text": "Rain returns, and the long drought ends in most of the region."}
+  ],
+  "sections": [
+    {"key": "happened", "title": "What happened?", "paragraphs": [
+      "In the 1930s, a terrible drought hit the Great Plains of the United States. The worst area was centered on the panhandles of Texas and Oklahoma. It also included parts of Kansas, Colorado, and New Mexico. This area became known as the Dust Bowl.",
+      "Before the drought, farmers had plowed up millions of acres of grassland to grow wheat. The roots of the native grasses had held the soil in place. When the rain stopped, the bare soil dried out and turned to dust. Strong winds picked it up and blew it away.",
+      "Huge dust storms called \"black blizzards\" rolled across the land. The worst one came on April 14, 1935, a day called Black Sunday. The dust was so thick that people could not see their own hands in front of their faces. Some storms carried dust all the way to the East Coast."
+    ], "from": [0, 1, 2, 4]},
+    {"key": "why", "title": "Why did people move?", "paragraphs": [
+      "Farm families could not grow crops in the blowing dust. Dust piled up against houses, and many farm animals died. People spent hours cleaning dust out of their homes. Some farmers tied clotheslines between the house and the barn so they could find their way in a storm.",
+      "At the same time, the Great Depression made money very hard to find. Wheat prices had fallen, so farmers earned very little. By 1935, more than 500,000 Americans had lost their homes. Often, banks took their land.",
+      "Many families felt they had no choice but to leave. About one in four people on the Plains moved away. Still, about three out of four farmers stayed on their land and kept trying."
+    ], "from": [0, 1, 2, 3]},
+    {"key": "journey", "title": "Where did they go, and how?", "paragraphs": [
+      "By 1940, about 2.5 million people had left the Plains states. Many moved only to nearby towns or counties that were less damaged. Others traveled far to the west. About 200,000 of them moved to California.",
+      "Families packed everything they owned into old cars and trucks called \"jalopies.\" Many drove west on Route 66, a famous highway. They had heard there were farm jobs in California. Many came from Oklahoma, Arkansas, Missouri, Kansas, and Texas.",
+      "In California, many families worked in the fields picking grapes and cotton. They were paid very little for long, hard days. Many lived in tents or small shacks without plumbing or electricity. The government built camps for some families, where people helped run their own communities."
+    ], "from": [0, 1, 3]},
+    {"key": "changed", "title": "How did it change lives?", "paragraphs": [
+      "Many Californians did not welcome the newcomers. They called the migrants \"Okies,\" no matter which state they came from. Migrants faced discrimination when they looked for work. The Los Angeles police chief even sent officers to the state border to turn poor families away.",
+      "The government also worked to heal the land. In 1935, Congress passed a law to help protect the soil. Farmers learned better ways to plow and plant. Between 1934 and 1942, the government planted about 220 million trees as windbreaks to slow the wind.",
+      "Rain finally returned in 1939, and much of the land recovered by the early 1940s. Some migrants went home, but many stayed in their new states. Over time, families replaced their shacks with real houses and became part of their communities. Photographer Dorothea Lange took pictures that helped Americans understand their struggle."
+    ], "from": [0, 1, 2, 3, 4]}
+  ],
+  "vocab": [
+    {"word": "drought", "meaning": "A long time with little or no rain."},
+    {"word": "topsoil", "meaning": "The top layer of soil, where plants grow best."},
+    {"word": "erosion", "meaning": "When wind or water slowly carries soil or rock away."},
+    {"word": "migrant", "meaning": "A person who moves from place to place, often to find work."},
+    {"word": "Great Depression", "meaning": "A time in the 1930s when many people lost their jobs, money, and homes."},
+    {"word": "discrimination", "meaning": "Treating people unfairly because of who they are or where they come from."},
+    {"word": "windbreak", "meaning": "A row of trees planted to slow down the wind."}
+  ],
+  "teacherNote": "This page mentions hardship, farm animals dying, and unfair treatment of migrants without graphic details. The second photo shows a struggling migrant family beside their car.",
+  "photos": [
+    {"file": "dust-bowl-1.jpg", "alt": "A giant wall of dark dust rising behind small buildings in a flat Texas town.", "caption": "A huge dust storm rolls toward the town of Stratford, Texas, in 1935.", "credit": "George Everett Marsh Jr.", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Dust_storm_approaching_Stratford,_Texas.jpg"},
+    {"file": "dust-bowl-2.jpg", "alt": "Black-and-white photo of a migrant family with an old car and trailer stopped beside a highway.", "caption": "Dorothea Lange photographed this Missouri family on a California highway after they left the drought area.", "credit": "Dorothea Lange", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Broke,_baby_sick,_and_car_trouble!_-_Dorothea_Langes_photo_of_a_Missouri_family_of_five_in_the_vicinity_of_Tracy,_California.jpg"},
+    {"file": "dust-bowl-map.jpg", "map": true, "alt": "Map of counties in Colorado, Kansas, Oklahoma, Texas, and New Mexico, with the worst wind erosion shaded dark red.", "caption": "The darkest counties had the worst blowing soil, where Colorado, Kansas, Oklahoma, Texas, and New Mexico meet.", "credit": "Natural Resources Conservation Service, U.S. Department of Agriculture", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Map_of_states_and_counties_affected_by_the_Dust_Bowl,_sourced_from_US_federal_government_dept._(NRCS_SSRA-RAD).svg"}
+  ],
+  "videos": [
+    {"title": "The Dust Bowl (2nd to 5th Grade)", "url": "https://www.youtube.com/watch?v=3L0x6cPniFE", "channel": "Fort Worth Museum of Science and History", "about": "A museum lesson for elementary students about what happened during the Dust Bowl and why.", "minutes": 5, "cite": "\"The Dust Bowl (2nd to 5th Grade).\" Fort Worth Museum of Science and History. 2020."},
+    {"title": "History Brief: the Dust Bowl", "url": "https://www.youtube.com/watch?v=n-rBhbkvtm0", "channel": "Reading Through History", "about": "A short overview of the causes of the Dust Bowl and how it affected farm families.", "minutes": 4, "cite": "\"History Brief: the Dust Bowl.\" Reading Through History. 2015."}
+  ],
+  "sources": [
+    {"title": "Great Depression: Dust Bowl", "site": "Ducksters", "url": "https://www.ducksters.com/history/us_1900s/dust_bowl.php", "level": "On level", "about": "Explains the causes of the Dust Bowl, black blizzards, life on the farm, and the move to California.", "cite": "\"Great Depression: Dust Bowl.\" Ducksters."},
+    {"title": "Dust Bowl Facts for Kids", "site": "Kiddle", "url": "https://kids.kiddle.co/Dust_Bowl", "level": "On level", "about": "Covers where the Dust Bowl was, the big storms, the migrants, and Dorothea Lange's photos.", "cite": "\"Dust Bowl Facts for Kids.\" Kiddle."},
+    {"title": "Dust Bowl", "site": "History.com", "url": "https://www.history.com/articles/dust-bowl", "level": "Challenging", "about": "Describes the causes of the Dust Bowl, Black Sunday, the migration, and the government's response.", "cite": "\"Dust Bowl.\" History.com."},
+    {"title": "Mass Exodus From the Plains", "site": "PBS American Experience", "url": "https://www.pbs.org/wgbh/americanexperience/features/surviving-the-dust-bowl-mass-exodus-plains/", "level": "Challenging", "about": "Tells how many people left the Plains and what life was like for migrant families in California.", "cite": "\"Mass Exodus From the Plains.\" American Experience, PBS."},
+    {"title": "The Black Sunday Dust Storm of April 14, 1935", "site": "National Weather Service", "url": "https://www.weather.gov/oun/events-19350414", "level": "Challenging", "about": "Describes the Black Sunday storm and how the name \"Dust Bowl\" began.", "cite": "\"The Black Sunday Dust Storm of April 14, 1935.\" National Weather Service."}
+  ],
+  "britannica": {"title": "Dust Bowl", "kidsUrl": "https://kids.britannica.com/kids/article/Dust-Bowl/390020", "id": "390020", "pathSlug": "Dust-Bowl"}
+}

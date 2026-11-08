@@ -1,0 +1,92 @@
+{
+  "slug": "native-american-boarding-schools",
+  "name": "Native American Boarding Schools",
+  "reason": "Forced removal",
+  "years": "1819–1969",
+  "startYear": 1819,
+  "place": "Across the United States (first off-reservation school: Carlisle, Pennsylvania)",
+  "intro": "For about 150 years, the U.S. government ran or paid for boarding schools for Native American children. Many children were taken from their families, often by force, and sent to schools far from home. At the schools, they were made to give up their languages, names, and cultures.",
+  "keyFacts": [
+    {"label": "When", "value": "1819–1969"},
+    {"label": "Where", "value": "More than 400 schools in 37 states or territories, including Alaska and Hawaii"},
+    {"label": "Who moved", "value": "American Indian, Alaska Native, and Native Hawaiian children"},
+    {"label": "How many", "value": "Tens of thousands of children, according to federal records"},
+    {"label": "Where they went", "value": "Boarding schools, often far from their families, such as Carlisle Indian Industrial School in Pennsylvania"}
+  ],
+  "timeline": [
+    {"year": "1819", "text": "Congress begins paying for schools to teach Native children."},
+    {"year": "1879", "text": "Carlisle Indian Industrial School opens in Pennsylvania as the first off-reservation boarding school."},
+    {"year": "1891", "text": "A new law lets federal officers take Native children from their homes to send them to school."},
+    {"year": "1928", "text": "A government report finds that children at the schools are overworked and underfed."},
+    {"year": "1978", "text": "The Indian Child Welfare Act gives Native parents the right to refuse to send their children to boarding schools."},
+    {"year": "2024", "text": "The President apologizes for the boarding schools, and Carlisle becomes a national monument."}
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "From 1819 to 1969, the U.S. government ran or paid for boarding schools for Native children. A boarding school is a school where students live, eat, and sleep, away from their families. There were more than 400 of these schools in 37 states or territories. Some were in Alaska and Hawaii.",
+        "In 1879, an Army officer named Richard Pratt opened the Carlisle Indian Industrial School in Pennsylvania. It was the first boarding school for Native children that was far away from their reservations. About 7,800 children from more than 140 Native nations went there before it closed in 1918. Carlisle became a model for hundreds of other schools.",
+        "Thousands of Native children were taken from their families, often by force. Some were only four or five years old. Federal records show that tens of thousands of children went to these schools."
+      ],
+      "from": [0, 1, 2, 3]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "The government wanted Native children to give up their own ways of life and live like white Americans. This is called assimilation. Leaders believed it would be easier to change children if they were taken far away from their families and communities. The government also wanted to take more Native land.",
+        "Many families did not want to send their children away. In 1891, a law let federal officers take children from their homes. Some parents who refused to send their children were punished. For example, in 1895, 19 Hopi men were sent to prison on Alcatraz Island for refusing to send their children to school.",
+        "So, most children did not choose to go. Their families and nations did not choose it either. The government made the decision for them."
+      ],
+      "from": [0, 2, 3]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "Children were sent to schools on or near reservations, or to schools far from home like Carlisle. Carlisle brought children from Native nations all over the country to Pennsylvania.",
+        "When children arrived, the schools tried to erase who they were. Staff cut the children's long hair and took away their traditional clothing. Children had to wear uniforms and were given new English names. They were not allowed to speak their Native languages, and they were punished if they did.",
+        "Life at the schools was strict, like the Army. Students marched in lines and spent much of their time doing hard work, not just schoolwork. A government report in 1928 found that children were overworked and did not get enough food. Many children got sick, and federal records show that nearly 1,000 children died while at the schools."
+      ],
+      "from": [0, 1, 2, 3]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "The boarding schools separated children from their families, languages, and cultures. Many children grew up without learning their nation's language or traditions. The schools left lasting effects on survivors and on their children and grandchildren.",
+        "Over time, the laws changed. Most off-reservation boarding schools closed by the 1930s. In 1975, a new law let Native nations run their own education programs. In 1978, the Indian Child Welfare Act gave Native parents the right to say no to sending their children to boarding schools.",
+        "In 2022, the U.S. Department of the Interior released a report about the schools. Survivors shared their stories on a tour called the Road to Healing. In October 2024, President Joe Biden formally apologized for the boarding schools. In December 2024, the Carlisle school grounds became a national monument. Today, many Native nations are working to bring back their languages and traditions."
+      ],
+      "from": [0, 1, 2, 3]
+    }
+  ],
+  "vocab": [
+    {"word": "boarding school", "meaning": "A school where students live and sleep, away from their families."},
+    {"word": "assimilation", "meaning": "Forcing or expecting a group of people to give up their own culture and take on another one."},
+    {"word": "culture", "meaning": "The language, beliefs, customs, food, and art of a group of people."},
+    {"word": "reservation", "meaning": "Land set aside by the U.S. government for a Native American nation."},
+    {"word": "survivor", "meaning": "A person who lived through something very hard."},
+    {"word": "apology", "meaning": "Saying that you are sorry for something wrong that you did."},
+    {"word": "monument", "meaning": "A place or structure that helps people remember an important event or people."}
+  ],
+  "teacherNote": "This page says plainly that the U.S. government took Native children from their families and tried to erase their languages and cultures, and it states once, without detail, that nearly 1,000 children died at the schools (federal records). It uses respectful class and workshop photos (no \"before and after\" images) and ends with survivors, the 2024 federal apology, and language revival. Some students may have family ties to this history; the Kiddle source mentions harsh punishments, so preview it first.",
+  "photos": [
+    {"file": "native-american-boarding-schools-1.jpg", "alt": "A black-and-white photo of Native American students sitting at desks in a classroom in 1901, with pictures of U.S. leaders on the wall.", "caption": "Students sat in a class about the U.S. government at the Carlisle Indian School in Pennsylvania in 1901.", "credit": "Frances Benjamin Johnston, Library of Congress", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Carlisle_Indian_School,_Carlisle,_Pa._Class_in_Government_LCCN2004676452.jpg"},
+    {"file": "native-american-boarding-schools-2.jpg", "alt": "A black-and-white photo of young men in aprons working in a tin shop full of metal pails in 1904.", "caption": "Students at Carlisle spent much of their time learning trades and working, like these young men in the tin shop in 1904.", "credit": "Waldon Fawcett, Library of Congress", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Carlisle_Indian_School_LCCN95505783.jpg"},
+    {"file": "native-american-boarding-schools-map.png", "map": true, "alt": "A map of Pennsylvania with Cumberland County colored red in the south-central part of the state.", "caption": "The Carlisle Indian School was in the town of Carlisle, in Cumberland County, Pennsylvania (shown in red). Other boarding schools were spread across 37 states.", "credit": "David Benbennick", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Map_of_Pennsylvania_highlighting_Cumberland_County.svg"}
+  ],
+  "videos": [
+    {"title": "Native American Boarding School Video for PreK - Elementary", "url": "https://www.youtube.com/watch?v=zMyaElqxV7s", "channel": "SDPB", "about": "A short video for young students from South Dakota Public Broadcasting and the WoLakota Project about Native American boarding schools.", "minutes": 3, "cite": "\"Native American Boarding School Video for PreK - Elementary.\" SDPB. 2019."}
+  ],
+  "sources": [
+    {"title": "History & Culture - Carlisle Federal Indian Boarding School National Monument", "site": "National Park Service", "url": "https://www.nps.gov/cibs/learn/historyculture/index.htm", "level": "Challenging", "about": "The history of the Carlisle school, its rules, and the wider federal boarding school system.", "cite": "\"History & Culture - Carlisle Federal Indian Boarding School National Monument.\" National Park Service."},
+    {"title": "Secretary Haaland Applauds President Biden's Establishment of Carlisle Federal Indian Boarding School National Monument in Pennsylvania", "site": "National Park Service", "url": "https://www.nps.gov/orgs/1207/secretary-haaland-applauds-president-biden-s-establishment-of-carlisle-federal-indian-boarding-school-national-monument-in-pennsylvania.htm", "level": "Challenging", "about": "News about the new national monument at Carlisle and the 2024 presidential apology.", "cite": "\"Secretary Haaland Applauds President Biden's Establishment of Carlisle Federal Indian Boarding School National Monument in Pennsylvania.\" National Park Service. 2024."},
+    {"title": "Department of the Interior Releases Investigative Report, Outlines Next Steps in Federal Indian Boarding School Initiative", "site": "U.S. Department of the Interior", "url": "https://www.doi.gov/pressreleases/department-interior-releases-investigative-report-outlines-next-steps-federal-indian", "level": "Challenging", "about": "Explains what the government's 2022 report found about the schools and the Road to Healing tour.", "cite": "\"Department of the Interior Releases Investigative Report, Outlines Next Steps in Federal Indian Boarding School Initiative.\" U.S. Department of the Interior. 2022."},
+    {"title": "American Indian boarding schools Facts for Kids", "site": "Kiddle", "url": "https://kids.kiddle.co/American_Indian_boarding_schools", "level": "On level", "about": "A kids' encyclopedia article with a timeline of the schools and the laws that changed them.", "cite": "\"American Indian boarding schools Facts for Kids.\" Kiddle."},
+    {"title": "Native boarding schools", "site": "Britannica Kids (Students)", "url": "https://kids.britannica.com/students/article/Native-boarding-schools/636007", "level": "Challenging", "about": "An encyclopedia article for students about the U.S. boarding school system for Native children.", "cite": "\"Native boarding schools.\" Britannica Kids."}
+  ],
+  "britannica": {"title": "Native boarding schools", "kidsUrl": "https://kids.britannica.com/students/article/Native-boarding-schools/636007", "id": "636007", "pathSlug": "Native-boarding-schools"}
+}

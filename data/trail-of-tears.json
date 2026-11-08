@@ -1,0 +1,235 @@
+{
+  "slug": "trail-of-tears",
+  "name": "Trail of Tears",
+  "reason": "Forced removal",
+  "years": "1830–1850",
+  "startYear": 1830,
+  "place": "Southeastern United States to Indian Territory (Oklahoma)",
+  "intro": "The Trail of Tears was the forced removal of Native American nations from their homelands in the Southeast. After Congress passed the Indian Removal Act in 1830, the U.S. government made about 100,000 Native people move west to Indian Territory, in what is now Oklahoma. The Cherokee Nation's removal in 1838 and 1839 is the best-known part of this story, and thousands of Cherokee people died on the journey.",
+  "keyFacts": [
+    {
+      "label": "When",
+      "value": "1830–1850 (Cherokee removal: 1838–1839)"
+    },
+    {
+      "label": "Where",
+      "value": "From Georgia, Tennessee, Alabama, North Carolina, and nearby lands to Indian Territory (Oklahoma)"
+    },
+    {
+      "label": "Who moved",
+      "value": "Cherokee, Muscogee (Creek), Chickasaw, Choctaw, and Seminole people"
+    },
+    {
+      "label": "How many",
+      "value": "About 100,000 Native people were forced to move west"
+    },
+    {
+      "label": "Where they went",
+      "value": "Indian Territory, in what is now Oklahoma"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1830",
+      "text": "Congress passes the Indian Removal Act."
+    },
+    {
+      "year": "1831",
+      "text": "The Choctaw Nation becomes the first nation forced to move west."
+    },
+    {
+      "year": "1835",
+      "text": "A small group of Cherokee people, not the nation's elected leaders, signs the Treaty of New Echota."
+    },
+    {
+      "year": "1838",
+      "text": "U.S. soldiers force Cherokee families into camps and send them west."
+    },
+    {
+      "year": "1839",
+      "text": "The last Cherokee groups reach Indian Territory, and John Ross is elected Principal Chief."
+    }
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "In the early 1800s, five Native nations lived in the southeastern United States. They were the Cherokee, Muscogee (Creek), Chickasaw, Choctaw, and Seminole nations. White settlers wanted their land for farms, and some leaders wanted the United States to grow. In 1830, Congress passed the Indian Removal Act, and President Andrew Jackson supported it.",
+        "The law was used to push Native nations west of the Mississippi River. Between 1830 and 1850, about 100,000 Native people were forced to leave their homes. The Choctaw were the first to go, starting in 1831. The Cherokee were the last, in 1838 and 1839.",
+        "This forced journey became known as the Trail of Tears. Today, people use that name for the removal of all five nations. Historians estimate that about 4,000 Cherokee people died before, during, or after the march."
+      ],
+      "from": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "The Native nations did not want to leave. The Cherokee Nation had its own written language, created by Sequoyah, and its own written constitution. When gold was found on Cherokee land, the state of Georgia gave Cherokee land to white settlers. The Cherokee took their case to the U.S. Supreme Court and won, but the government still did not protect them.",
+        "In 1835, a small group of Cherokee people signed the Treaty of New Echota. None of them were elected leaders of the Cherokee Nation. The treaty traded all Cherokee land in the East for $5 million and land in Indian Territory. More than 15,000 Cherokee people protested the treaty, but the U.S. Senate approved it by just one vote.",
+        "The treaty gave the Cherokee two years to leave. By May 1838, only a few thousand had gone. The government then sent about 7,000 soldiers to force the rest of the Cherokee people out of their homes."
+      ],
+      "from": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "In May 1838, soldiers rounded up Cherokee families and held them in crowded camps called stockades. Many families had to leave their homes and belongings behind. In the summer, a few groups traveled west by boat on rivers. Low water and hot, dry weather made that trip very hard.",
+        "Most Cherokee people waited in the camps until fall. Then about 12 groups of around 1,000 people each set out over land. They traveled on foot, on horseback, and in wagons, and some went by steamboat. Depending on the route, the trip was about 800 to 1,200 miles long.",
+        "The groups faced heavy rain, muddy roads, freezing weather, and too little food. Many people got sick, and many died from disease. By March 1839, all of the survivors had reached Indian Territory, in what is now Oklahoma."
+      ],
+      "from": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "The removal took the Cherokee people far from the land where their families had lived for generations. Thousands of people lost loved ones on the way. Later, some of the land promised to the nations in Indian Territory was taken from them too.",
+        "The Cherokee people worked hard to rebuild. In 1839, they elected John Ross as Principal Chief of the Cherokee Nation. Tahlequah, Oklahoma, became their capital, and it is still the nation's headquarters today. About 1,000 Cherokee people stayed in the mountains of North Carolina and Tennessee. Their descendants are the Eastern Band of Cherokee Indians.",
+        "Today, the Trail of Tears National Historic Trail crosses parts of nine states. The National Park Service says the trail helps people remember the removal and honor the survival of the Cherokee people."
+      ],
+      "from": [
+        0,
+        1,
+        3
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "removal",
+      "meaning": "Forcing people to leave the place where they live."
+    },
+    {
+      "word": "treaty",
+      "meaning": "A written agreement between nations or governments."
+    },
+    {
+      "word": "nation",
+      "meaning": "A group of people with its own land, government, and way of life, like the Cherokee Nation."
+    },
+    {
+      "word": "stockade",
+      "meaning": "A fenced camp where people were held and not allowed to leave."
+    },
+    {
+      "word": "territory",
+      "meaning": "An area of land controlled by a government but not yet a state."
+    },
+    {
+      "word": "survivor",
+      "meaning": "A person who lives through something very hard or dangerous."
+    },
+    {
+      "word": "descendant",
+      "meaning": "A person whose parents, grandparents, or older relatives came from a certain family or group."
+    }
+  ],
+  "teacherNote": "This page says plainly that the U.S. government forced Native nations from their homes and that about 4,000 Cherokee people died, but it gives no graphic details and uses no images of suffering. It focuses on the Cherokee story (the best documented) and ends with how the Cherokee Nation rebuilt and how the trail is remembered today. Death and distance figures vary by source, so the page uses \"about\" and National Park Service numbers.",
+  "photos": [
+    {
+      "file": "trail-of-tears-1.jpg",
+      "alt": "A stone monument beside a brown Trail of Tears Original Route sign in a wooded area.",
+      "caption": "This stone monument in Illinois honors the Cherokee people who passed along this part of the Trail of Tears in 1838.",
+      "credit": "National Trails Office, U.S. National Park Service",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:A_stone_Cherokee_monument_along_the_Trail_of_Tears_National_Historic_Trail_Original_Route_(1ad7677a-4f0d-407d-af27-f59ca4ddae3a).JPG"
+    },
+    {
+      "file": "trail-of-tears-2.jpg",
+      "alt": "A wide, calm river in Arkansas that was part of the Water Route of the Trail of Tears.",
+      "caption": "Some Cherokee groups traveled west by boat on rivers like this one in Arkansas, called the Water Route.",
+      "credit": "NPS Staff, U.S. National Park Service",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Water_Route_of_the_Trail_of_Tears_at_Lake_Dardanelle_State_Park_(Russellville,_Arkansas)_on_the_Trail_of_Tears_National_Historic_Trail_(2010)_(a76bb41e-0a16-405d-86dd-39d1d443b5eb).jpg"
+    },
+    {
+      "file": "trail-of-tears-map.jpg",
+      "map": true,
+      "alt": "Map of the southeastern United States showing the homelands of five Native nations and colored routes leading west to Indian Territory.",
+      "caption": "This map shows the routes the Cherokee, Chickasaw, Choctaw, Creek, and Seminole nations were forced to take to Indian Territory.",
+      "credit": "Nikater",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Trails_of_Tears_en.png"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Trail of Tears | Indian Removal Act | Simple History",
+      "url": "https://www.youtube.com/watch?v=kJm2K1A-vmQ",
+      "channel": "Bedtime History",
+      "about": "A calm, simple animated overview of the Indian Removal Act and the forced removal of five Native nations.",
+      "minutes": 5,
+      "cite": "\"Trail of Tears | Indian Removal Act | Simple History.\" Bedtime History. 2025."
+    },
+    {
+      "title": "Trail of Tears National Historic Trail",
+      "url": "https://www.youtube.com/watch?v=7LSkfmCj8Jg",
+      "channel": "NationalTrailsNPS",
+      "about": "A National Park Service film, told through a grandfather and granddaughter, filmed at places along the trail (about 26 minutes; good for watching in parts with a teacher).",
+      "minutes": 26,
+      "cite": "\"Trail of Tears National Historic Trail.\" NationalTrailsNPS. 2013."
+    }
+  ],
+  "sources": [
+    {
+      "title": "What Happened on the Trail of Tears?",
+      "site": "National Park Service",
+      "url": "https://www.nps.gov/trte/learn/historyculture/what-happened-on-the-trail-of-tears.htm",
+      "level": "Challenging",
+      "about": "A detailed history of the Indian Removal Act, the Treaty of New Echota, and the Cherokee journey west.",
+      "cite": "\"What Happened on the Trail of Tears?\" National Park Service."
+    },
+    {
+      "title": "Trail of Tears for Kids",
+      "site": "Ducksters",
+      "url": "https://www.ducksters.com/history/native_americans/trail_of_tears.php",
+      "level": "On level",
+      "about": "A short, kid-friendly article about the five nations, the removal, and the trail today.",
+      "cite": "\"Trail of Tears for Kids.\" Ducksters."
+    },
+    {
+      "title": "Trail of Tears Facts for Kids",
+      "site": "Kiddle",
+      "url": "https://kids.kiddle.co/Trail_of_Tears",
+      "level": "On level",
+      "about": "A kids' encyclopedia article with dates, numbers, and the routes of the Cherokee removal.",
+      "cite": "\"Trail of Tears Facts for Kids.\" Kiddle."
+    },
+    {
+      "title": "Trail of Tears National Historic Trail",
+      "site": "National Park Service",
+      "url": "https://www.nps.gov/trte/index.htm",
+      "level": "On level",
+      "about": "The home page of the national historic trail that remembers the Cherokee removal and survival.",
+      "cite": "\"Trail of Tears National Historic Trail.\" National Park Service."
+    },
+    {
+      "title": "Trail of Tears",
+      "site": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Trail-of-Tears/353872",
+      "level": "On level",
+      "about": "An encyclopedia article for kids about the removal of Native nations from the Southeast.",
+      "cite": "\"Trail of Tears.\" Britannica Kids."
+    }
+  ],
+  "britannica": {
+    "title": "Trail of Tears",
+    "kidsUrl": "https://kids.britannica.com/kids/article/Trail-of-Tears/353872",
+    "id": "353872",
+    "pathSlug": "Trail-of-Tears"
+  }
+}

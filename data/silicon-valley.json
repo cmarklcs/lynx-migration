@@ -1,0 +1,90 @@
+{
+  "slug": "silicon-valley",
+  "name": "Silicon Valley",
+  "reason": "Opportunity",
+  "years": "1950s–today",
+  "startYear": 1950,
+  "place": "San Francisco Bay Area, California, United States",
+  "intro": "Silicon Valley is the southern part of the San Francisco Bay Area, where many computer and technology companies began. Starting in the mid-1900s, scientists, engineers, and workers moved there from across the United States and around the world for new technology jobs. People are still moving there today, and the area has grown to about 3 million people.",
+  "keyFacts": [
+    {"label": "When", "value": "From the 1950s to today"},
+    {"label": "Where", "value": "Santa Clara Valley and the southern San Francisco Bay Area, including San Jose, Palo Alto, Mountain View, and Sunnyvale"},
+    {"label": "Who moved", "value": "Scientists, engineers, and workers from across the U.S. and the world, especially East and South Asia"},
+    {"label": "How many", "value": "About 3.1 million people lived in Silicon Valley in 2020; in 1999, about one-third of its scientists and engineers were immigrants"},
+    {"label": "Where they went", "value": "Cities and towns of the Santa Clara Valley, where orchards were replaced by technology companies"}
+  ],
+  "timeline": [
+    {"year": "1939", "text": "Two Stanford graduates started Hewlett-Packard in a garage in Palo Alto."},
+    {"year": "1951", "text": "Stanford Industrial Park opened for new technology companies."},
+    {"year": "1956", "text": "Lockheed opened in Sunnyvale and soon had 28,000 workers, the most in the area."},
+    {"year": "1957", "text": "Eight engineers started Fairchild Semiconductor, a company that made computer parts from silicon."},
+    {"year": "1971", "text": "A news writer made the name \"Silicon Valley\" popular."},
+    {"year": "2020", "text": "About 3.1 million people lived in Silicon Valley."}
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "For thousands of years, the Ohlone people lived in the valley south of San Francisco Bay. Much later, the Santa Clara Valley became famous for its fruit orchards. Until the 1960s, it was the largest fruit-growing area in the world. People called it \"the Valley of Heart's Delight.\"",
+        "In 1939, two Stanford University graduates started a company called Hewlett-Packard in a garage in Palo Alto. In 1951, Stanford opened an industrial park where new technology companies could build offices. In the 1950s, companies began making tiny electronic parts out of silicon. These parts became the \"brains\" inside computers and many other machines.",
+        "More and more technology companies started in the valley. In 1971, a writer named Don Hoefler made the name \"Silicon Valley\" popular. Today, the name often means the whole San Francisco Bay Area. Famous companies such as Apple, Google, and Intel are based there."
+      ],
+      "from": [0, 1, 2]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "People moved to Silicon Valley for opportunity. New companies needed scientists, engineers, and factory workers, and they offered good jobs. In 1956, the company Lockheed opened in Sunnyvale and soon had 28,000 workers. In 1957, William Shockley brought young scientists and engineers from the East Coast to work at his new lab.",
+        "In 1965, the United States passed a new immigration law. It gave special priority to skilled workers and professionals. After that, many more immigrants came from Asia and other parts of the world. In the 1960s and 1970s, the growing electronics industry also drew people who wanted to start their own companies."
+      ],
+      "from": [1, 2, 3]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "Newcomers came from all over the United States and from many countries. Immigrants, especially from East and South Asia, came in wave after wave. A study in 1999 found that about one-third of Silicon Valley's scientists and engineers were immigrants. Nearly a quarter of the technology companies started there after 1980 had leaders of Chinese or Indian background.",
+        "Most newcomers settled in cities such as San Jose, Palo Alto, Mountain View, Sunnyvale, and Cupertino. San Jose became the largest city in Silicon Valley. Unlike many migrations in history, most of these people chose to move to find a better job."
+      ],
+      "from": [0, 1]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "Silicon Valley changed from a quiet farming valley into a busy center of technology. Orchards were replaced by offices, factories, and neighborhoods. By 2020, about 3.1 million people lived there. Inventions made in Silicon Valley, like computer chips and websites, are now used all over the world.",
+        "Growth also brought problems. Homes in Silicon Valley became very expensive, with an average price of about $1 million. Some families with middle incomes have had to move away. Traffic and long drives to work have also been problems for many years.",
+        "Newcomers made Silicon Valley a home for people from many different countries. Families from many countries brought their languages, foods, and traditions. Many immigrants started companies that created jobs for others. People keep moving to Silicon Valley today, hoping to build new technology and a new life."
+      ],
+      "from": [0, 1]
+    }
+  ],
+  "vocab": [
+    {"word": "technology", "meaning": "Tools and machines, like computers and phones, that people invent to solve problems."},
+    {"word": "engineer", "meaning": "A person who designs and builds machines, buildings, or computer systems."},
+    {"word": "silicon", "meaning": "A material found in sand that is used to make computer chips."},
+    {"word": "immigrant", "meaning": "A person who moves to a new country to live."},
+    {"word": "orchard", "meaning": "A large area of land where fruit trees are grown."},
+    {"word": "opportunity", "meaning": "A chance to do something good, like get a better job."},
+    {"word": "diverse", "meaning": "Made up of many different kinds of people."}
+  ],
+  "teacherNote": "",
+  "photos": [
+    {"file": "silicon-valley-1.jpg", "alt": "A wide view from a hilltop of a valley filled with houses and buildings, with tall downtown San Jose buildings and mountains in the distance.", "caption": "The Santa Clara Valley, once full of fruit orchards, is now filled with homes, offices, and the city of San Jose.", "credit": "Michael from San Jose, California, USA", "license": "CC BY 2.0", "source": "https://commons.wikimedia.org/wiki/File:San_Jose_Skyline_Silicon_Valley.jpg"},
+    {"file": "silicon-valley-2.jpg", "alt": "A small wooden garage with green doors at the end of a driveway in Palo Alto.", "caption": "Hewlett-Packard started in this garage in Palo Alto in 1939, and people call it the birthplace of Silicon Valley.", "credit": "Oysterboy9", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:HP_Garage.jpg"},
+    {"file": "silicon-valley-map.jpg", "map": true, "alt": "A map of the San Francisco Bay Area with Silicon Valley shaded green, showing cities such as Palo Alto, Mountain View, Sunnyvale, Santa Clara, Cupertino, and San Jose.", "caption": "The green area shows Silicon Valley, south of San Francisco Bay, and its main cities.", "credit": "Junge-Gruender.de", "license": "CC BY 4.0", "source": "https://commons.wikimedia.org/wiki/File:Map_silicon_valley_cities.png"}
+  ],
+  "videos": [
+    {"title": "The Story of Silicon Valley For Kids | Simple History", "url": "https://www.youtube.com/watch?v=xEjpyY_uJfU", "channel": "Bedtime History", "about": "A kid-friendly video about how Silicon Valley grew into the place where many tech gadgets and apps were invented.", "minutes": 8, "cite": "\"The Story of Silicon Valley For Kids | Simple History.\" Bedtime History. 2025."},
+    {"title": "History of Silicon Valley: Why do they call it Silicon Valley?", "url": "https://www.youtube.com/watch?v=M4VP7TuZjt8", "channel": "History on Maps", "about": "A map-based video that shows where Silicon Valley is and explains how it got its name.", "minutes": 9, "cite": "\"History of Silicon Valley: Why do they call it Silicon Valley?\" History on Maps. 2019."}
+  ],
+  "sources": [
+    {"title": "Silicon Valley facts for kids", "site": "Kiddle", "url": "https://kids.kiddle.co/Silicon_Valley", "level": "On level", "about": "A kids' encyclopedia article about where Silicon Valley is, how it began, the immigrants who work there, and life there today.", "cite": "\"Silicon Valley facts for kids.\" Kiddle."},
+    {"title": "Silicon Valley: Building on a Culture of Looking Forward", "site": "Computer History Museum", "url": "https://computerhistory.org/stories/silicon-valley/", "level": "Challenging", "about": "A museum story about Silicon Valley's history, including how migration and immigration shaped the region.", "cite": "\"Silicon Valley: Building on a Culture of Looking Forward.\" Computer History Museum."},
+    {"title": "Becoming Silicon Valley, 1945-1960", "site": "Computer History Museum", "url": "https://www.computerhistory.org/collections/stories/becoming-silicon-valley-1945-1960/", "level": "Challenging", "about": "A museum story about the first electronics companies in the Bay Area and the workers they brought there.", "cite": "\"Becoming Silicon Valley, 1945-1960.\" Computer History Museum."},
+    {"title": "How the Immigration Act of 1965 Changed the Face of America", "site": "HISTORY", "url": "https://www.history.com/articles/immigration-act-1965-changes", "level": "Challenging", "about": "An article about the 1965 law that gave priority to skilled workers and led to more immigration from Asia.", "cite": "\"How the Immigration Act of 1965 Changed the Face of America.\" HISTORY. 2019."}
+  ],
+  "britannica": null
+}

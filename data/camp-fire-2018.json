@@ -1,0 +1,231 @@
+{
+  "slug": "camp-fire-2018",
+  "name": "The Camp Fire (2018)",
+  "reason": "Natural disaster",
+  "years": "2018",
+  "startYear": 2018,
+  "place": "Paradise, Butte County, California",
+  "intro": "On November 8, 2018, a wildfire called the Camp Fire started in the hills of Northern California. Strong winds pushed it into the town of Paradise, and in less than a day it destroyed most of the town. It was the deadliest wildfire in California history, and thousands of families had to find new homes.",
+  "keyFacts": [
+    {
+      "label": "When",
+      "value": "November 8–25, 2018"
+    },
+    {
+      "label": "Where",
+      "value": "Paradise, Concow, and Magalia in Butte County, California"
+    },
+    {
+      "label": "Who moved",
+      "value": "Families from Paradise and nearby towns"
+    },
+    {
+      "label": "How many",
+      "value": "About 26,000 people lived in Paradise; by 2020, fewer than 5,000 lived there"
+    },
+    {
+      "label": "Where they went",
+      "value": "Chico and other nearby towns, and cities such as Boise, Denver, Salt Lake City, and Crossville, Tennessee"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "Nov. 8, 2018",
+      "text": "Around 6:30 in the morning, a fire starts near Camp Creek Road in Butte County."
+    },
+    {
+      "year": "Nov. 8, 2018",
+      "text": "Strong winds push the fire into Paradise. The whole town is told to leave."
+    },
+    {
+      "year": "Nov. 25, 2018",
+      "text": "With help from three days of rain, firefighters fully contain the fire."
+    },
+    {
+      "year": "Mar. 28, 2019",
+      "text": "The town gives out its first two permits to rebuild homes."
+    },
+    {
+      "year": "2020",
+      "text": "The census counts 4,764 people in Paradise, down from about 26,000 before the fire."
+    },
+    {
+      "year": "Nov. 2023",
+      "text": "More than 9,000 people live in Paradise, and over 2,500 new buildings have gone up."
+    }
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "Early on the morning of November 8, 2018, a fire started in a canyon in Butte County, California. The area is about 90 miles north of Sacramento. The land was very dry because it had not rained much for about 200 days. The fire was started by equipment that belonged to a power company.",
+        "Strong winds blew the fire toward the town of Paradise, about 7 miles away. Burning bits of plants flew ahead of the flames and started new fires. In less than 24 hours, the fire swept through Paradise and the nearby towns of Concow and Magalia.",
+        "The Camp Fire burned for more than two weeks and covered about 240 square miles. It destroyed more than 18,000 buildings, including nearly 14,000 homes. Sadly, 85 people died. It was the deadliest and most destructive wildfire in California history."
+      ],
+      "from": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "Officials first told people in eastern Paradise to leave. About an hour later, they told the whole town to go. Many people did not get a warning, or they did not understand how serious the fire was. Thousands of people tried to drive out of town at the same time.",
+        "The roads out of town became jammed with traffic. Fallen power lines and burning plants blocked some roads. The fire chief told firefighters to stop fighting the fire and focus on one job: helping people escape.",
+        "When the fire was over, almost nothing was left of Paradise. Only about 5 out of every 100 buildings in town were not badly damaged. Families had no house to go back to, and schools, stores, and jobs were gone too."
+      ],
+      "from": [
+        1,
+        3
+      ]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "Many families moved to Chico, the closest city. But Chico did not have enough homes for everyone who needed one. Families with more money had an easier time finding a place to live there.",
+        "Other families moved much farther away. Small groups settled in cities like Boise, Idaho; Denver, Colorado; Salt Lake City, Utah; and Orlando, Florida. Some even moved to the small town of Crossville, Tennessee. Half of the people age 65 and older moved more than 30 miles away from the fire.",
+        "Many other families stayed in the area and kept a mailbox at the Paradise post office. Before the fire, about 26,000 people lived in Paradise. By April 2019, only about 2,000 people lived there."
+      ],
+      "from": [
+        1,
+        4
+      ]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "Rebuilding Paradise took a long time. Workers first had to clear away the burned buildings. The first two permits to build new homes were given out on March 28, 2019, almost five months after the fire.",
+        "Town leaders wanted Paradise to be safer from fire. They asked for buildings that resist fire and better roads for leaving in an emergency. Little by little, people came home and new families moved in.",
+        "By November 2023, more than 9,000 people lived in Paradise. More than 2,500 new buildings had been built. Many families who left never came back, but Paradise is slowly growing again."
+      ],
+      "from": [
+        1
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "wildfire",
+      "meaning": "A large fire that spreads quickly through forests, grass, or brush."
+    },
+    {
+      "word": "evacuate",
+      "meaning": "To leave a dangerous place to get to safety."
+    },
+    {
+      "word": "drought",
+      "meaning": "A long time with little or no rain."
+    },
+    {
+      "word": "contain",
+      "meaning": "For a fire, to stop it from spreading any farther."
+    },
+    {
+      "word": "permit",
+      "meaning": "A paper from the government that says you are allowed to do something, like build a house."
+    },
+    {
+      "word": "displaced",
+      "meaning": "Forced to leave your home and live somewhere else."
+    },
+    {
+      "word": "census",
+      "meaning": "An official count of all the people who live in a place."
+    }
+  ],
+  "teacherNote": "The page states that 85 people died without describing how. Photos show a satellite view of smoke, an empty burned lot months later, and a map. The news videos may include brief footage of flames from 2018; please preview them.",
+  "photos": [
+    {
+      "file": "camp-fire-2018-1.jpg",
+      "alt": "Satellite image showing a long cloud of gray smoke and red burning areas spreading across green and brown hills in Northern California.",
+      "caption": "A NASA satellite took this picture of the Camp Fire's smoke on the morning of November 8, 2018.",
+      "credit": "NASA Earth Observatory / Joshua Stevens",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Camp_Fire_oli_2018312_Landsat.jpg"
+    },
+    {
+      "file": "camp-fire-2018-2.jpg",
+      "alt": "An empty lot in Paradise with burned trees, rusty metal, and green plants growing back eight months after the fire.",
+      "caption": "Eight months after the fire, plants were growing again on this empty home lot in Paradise.",
+      "credit": "Frank Schulenburg",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Paradise_after_the_Camp_Fire,_July_2019-7420.jpg"
+    },
+    {
+      "file": "camp-fire-2018-map.jpg",
+      "map": true,
+      "alt": "Map of Butte County, California, with the Camp Fire area shaded orange around Paradise, Magalia, and Concow, east of Chico.",
+      "caption": "The orange area shows where the Camp Fire burned. Chico is to the west of Paradise.",
+      "credit": "Penitentes (Wikimedia Commons), using data from CAL FIRE and USGS",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:2018_Camp_Fire_map_1.png"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Rebuilding Paradise five years after California’s deadliest and most destructive wildfire",
+      "url": "https://www.youtube.com/watch?v=i4kaZPrZAUs",
+      "channel": "NBC News",
+      "about": "A reporter visits Paradise five years later to see how families are rebuilding with new safety ideas.",
+      "minutes": 7,
+      "cite": "\"Rebuilding Paradise five years after California’s deadliest and most destructive wildfire.\" NBC News. 2023."
+    },
+    {
+      "title": "Paradise rebuilding efforts continue 7 years after Camp Fire",
+      "url": "https://www.youtube.com/watch?v=cB7b5sUZ2Mg",
+      "channel": "KCRA 3",
+      "about": "A short news story about how the people of Paradise are still rebuilding their community.",
+      "minutes": 2,
+      "cite": "\"Paradise rebuilding efforts continue 7 years after Camp Fire.\" KCRA 3. 2025."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Fire Alarm",
+      "site": "TIME for Kids",
+      "url": "https://www.timeforkids.com/g56/fire-alarm-2/",
+      "level": "On level",
+      "about": "A kids' news article from November 2018 about the Camp Fire and the town of Paradise.",
+      "cite": "\"Fire Alarm.\" TIME for Kids. 2018."
+    },
+    {
+      "title": "Paradise, California facts for kids",
+      "site": "Kiddle",
+      "url": "https://kids.kiddle.co/Paradise,_California",
+      "level": "On level",
+      "about": "A kid-friendly article about the town of Paradise, the Camp Fire, and how the town is rebuilding.",
+      "cite": "\"Paradise, California facts for kids.\" Kiddle."
+    },
+    {
+      "title": "Camp Fire Rages in California",
+      "site": "NASA Earth Observatory",
+      "url": "https://science.nasa.gov/earth/earth-observatory/camp-fire-rages-in-california-144225",
+      "level": "Challenging",
+      "about": "Satellite pictures and facts about how fast the Camp Fire grew in its first day.",
+      "cite": "\"Camp Fire Rages in California.\" NASA Earth Observatory. 2018."
+    },
+    {
+      "title": "New Timeline of Deadliest California Wildfire Could Guide Lifesaving Research and Action",
+      "site": "National Institute of Standards and Technology (NIST)",
+      "url": "https://www.nist.gov/news-events/news/2021/02/new-timeline-deadliest-california-wildfire-could-guide-lifesaving-research",
+      "level": "Challenging",
+      "about": "Scientists explain how the fire spread so quickly into Paradise and what it means for keeping people safe.",
+      "cite": "\"New Timeline of Deadliest California Wildfire Could Guide Lifesaving Research and Action.\" NIST. 2021."
+    },
+    {
+      "title": "Where Did All the Camp Fire Survivors Go?",
+      "site": "KQED",
+      "url": "https://www.kqed.org/news/11797124/where-did-all-the-camp-fire-survivors-go",
+      "level": "Challenging",
+      "about": "Researchers tracked where families from Paradise moved after the fire.",
+      "cite": "\"Where Did All the Camp Fire Survivors Go?\" KQED. 2020."
+    }
+  ],
+  "britannica": null
+}

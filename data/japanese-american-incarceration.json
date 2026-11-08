@@ -1,0 +1,236 @@
+{
+  "slug": "japanese-american-incarceration",
+  "name": "Japanese American Incarceration",
+  "reason": "War",
+  "years": "1942–1946",
+  "startYear": 1942,
+  "place": "West Coast, United States",
+  "intro": "During World War II, the U.S. government forced about 120,000 Japanese Americans to leave their homes on the West Coast. Families were sent to prison camps in remote places, even though most of them were American citizens and none had done anything wrong. This event is often called Japanese internment, but many historians now call it Japanese American incarceration.",
+  "keyFacts": [
+    {
+      "label": "When",
+      "value": "1942–1946, during World War II"
+    },
+    {
+      "label": "Where",
+      "value": "From California, Oregon, and Washington to 10 camps in the western states and Arkansas"
+    },
+    {
+      "label": "Who moved",
+      "value": "Japanese immigrants and their American-born children and grandchildren"
+    },
+    {
+      "label": "How many",
+      "value": "About 120,000 people; about two out of three were U.S. citizens"
+    },
+    {
+      "label": "Where they went",
+      "value": "Camps such as Manzanar (California), Heart Mountain (Wyoming), and Rohwer (Arkansas)"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1941",
+      "text": "On December 7, Japan bombs Pearl Harbor, and the United States enters World War II."
+    },
+    {
+      "year": "1942",
+      "text": "In February, President Franklin D. Roosevelt signs Executive Order 9066."
+    },
+    {
+      "year": "1942",
+      "text": "Japanese American families are sent to temporary centers, then to 10 camps."
+    },
+    {
+      "year": "1944",
+      "text": "The government announces it will stop holding Japanese Americans in camps."
+    },
+    {
+      "year": "1988",
+      "text": "President Ronald Reagan signs the Civil Liberties Act, which apologizes and pays survivors $20,000 each."
+    }
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "Japanese immigrants began coming to the United States to work in the 1880s. Many settled on the West Coast, where they started farms, stores, and other businesses. Their children were born in the United States, so they were American citizens. Even so, Japanese Americans often faced unfair treatment because of their race.",
+        "On December 7, 1941, Japan attacked Pearl Harbor in Hawaii. The United States entered World War II. In February 1942, President Franklin D. Roosevelt signed Executive Order 9066. The order let the Army remove people from areas on the West Coast, and it was used against Japanese Americans.",
+        "About 120,000 people of Japanese ancestry were forced to leave their homes. About two out of three of them were U.S. citizens. Whole families, including children, were sent away. They were held in camps for most of the war."
+      ],
+      "from": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "Japanese Americans did not choose to move. The government ordered them to leave, and the Army carried out the orders. Leaders said it was a \"military necessity\" to keep the country safe during the war.",
+        "Years later, a group set up by Congress studied what happened. It found that the reason the government gave was false. Japanese Americans had not been a danger to the country. Prejudice against people of Japanese ancestry was a big part of why they were sent away.",
+        "A few Japanese Americans challenged the orders in court. Fred Korematsu refused to leave his home and took his case to the U.S. Supreme Court. The court sided with the government. Most families obeyed the orders, even though they knew the orders were unfair."
+      ],
+      "from": [
+        0,
+        2
+      ]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "Families sometimes had only 48 hours to get ready to leave. They could bring only what they could carry. Many had to sell or leave behind their homes, farms, businesses, and belongings.",
+        "First, people went to temporary centers for a few weeks or months. Then they were moved to one of 10 camps in remote places. The camps were in California, Arizona, Idaho, Utah, Wyoming, Colorado, and Arkansas. Manzanar, in the California desert, is one of the best-known camps.",
+        "The camps were crowded and surrounded by barbed wire, with guards in watchtowers. Families lived in crowded barracks. Even so, people worked to make life as normal as they could. Children went to school, and camps had bands, sports teams, and baseball games."
+      ],
+      "from": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "Many Japanese Americans lost their homes, farms, and businesses while they were away. When people left the camps, each person was given $25 and a ticket home. Many families had to start over with almost nothing.",
+        "Some young Japanese American men joined the Army during the war. The 442nd Regimental Combat Team, made up mostly of Japanese Americans, fought bravely in Europe. Many of their families were still living in the camps.",
+        "Starting in the 1970s, Japanese Americans worked to get the government to admit it was wrong. In 1988, President Ronald Reagan signed the Civil Liberties Act. The law apologized and gave $20,000 to each survivor. Today, Manzanar is a National Historic Site, and people gather there every year to remember."
+      ],
+      "from": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "incarceration",
+      "meaning": "Being locked up or held in a prison or camp."
+    },
+    {
+      "word": "internment",
+      "meaning": "Holding people in camps during a war, often without a trial. Many people call this event Japanese internment."
+    },
+    {
+      "word": "executive order",
+      "meaning": "A rule given by the President that the government must follow."
+    },
+    {
+      "word": "ancestry",
+      "meaning": "The family members and countries a person's family came from long ago."
+    },
+    {
+      "word": "prejudice",
+      "meaning": "An unfair feeling against a person or group, often because of their race or religion."
+    },
+    {
+      "word": "barracks",
+      "meaning": "Simple buildings where many people live close together, like soldiers in the army."
+    },
+    {
+      "word": "citizen",
+      "meaning": "A person who legally belongs to a country and has rights there."
+    }
+  ],
+  "teacherNote": "The teacher list calls this topic \"Japanese Internment\"; the page explains that both \"internment\" and \"incarceration\" are used and that many historians (including Densho and the National Archives) now prefer \"incarceration.\" The page says plainly that the U.S. government forced citizens from their homes because of their ancestry and that prejudice played a big part, with no graphic content. Preview the TED-Ed video, which is written for older students.",
+  "photos": [
+    {
+      "file": "japanese-american-incarceration-1.jpg",
+      "alt": "Japanese American men and women in coats and hats wait outside a small wooden building in 1942.",
+      "caption": "In May 1942, Japanese American families in Centerville, California, waited for buses that would take them away from their homes.",
+      "credit": "Dorothea Lange",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Centerville,_California._Evacuees_of_Japanese_ancestry_waiting_in_front_of_the_Japanese_American_Ci_._._._-_NARA_-_537564.jpg"
+    },
+    {
+      "file": "japanese-american-incarceration-2.jpg",
+      "alt": "The entrance to Manzanar National Historic Site in the California desert, with mountains behind it.",
+      "caption": "Today, Manzanar in California is a National Historic Site where people learn about the camps and remember the families held there.",
+      "credit": "MPSharwood",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Manzanar_War_Relocation_Center_entrance.jpg"
+    },
+    {
+      "file": "japanese-american-incarceration-map.png",
+      "map": true,
+      "alt": "Map of the western United States showing the locations of the World War II camps for Japanese Americans.",
+      "caption": "The triangles on this map show the 10 main camps, and the line shows the West Coast area people were forced to leave.",
+      "credit": "National Park Service",
+      "license": "Public domain",
+      "source": "https://commons.wikimedia.org/wiki/File:Map_of_World_War_II_Japanese_American_internment_camps.png"
+    }
+  ],
+  "videos": [
+    {
+      "title": "Kids Meet a Survivor of the Japanese-American Internment | Kids Meet | HiHo Kids",
+      "url": "https://www.youtube.com/watch?v=_e1s2kwSPwU",
+      "channel": "HiHo Kids",
+      "about": "Kids interview a woman who was held in a camp as a child and hear about her life there.",
+      "minutes": 6,
+      "cite": "\"Kids Meet a Survivor of the Japanese-American Internment | Kids Meet | HiHo Kids.\" HiHo Kids. 2018."
+    },
+    {
+      "title": "Ugly History: Japanese American incarceration camps - Densho",
+      "url": "https://www.youtube.com/watch?v=hI4NoVWq87M",
+      "channel": "TED-Ed",
+      "about": "An animated lesson by Densho that follows teenager Aki Kurose and explains why the camps were unjust.",
+      "minutes": 6,
+      "cite": "\"Ugly History: Japanese American incarceration camps - Densho.\" TED-Ed. 2019."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Japanese-American Incarceration During World War II",
+      "site": "National Archives",
+      "url": "https://www.archives.gov/education/lessons/japanese-relocation",
+      "level": "Challenging",
+      "about": "Explains Executive Order 9066, the camps, the Korematsu case, and the 1988 apology.",
+      "cite": "\"Japanese-American Incarceration During World War II.\" National Archives."
+    },
+    {
+      "title": "Internment of Japanese Americans Facts for Kids",
+      "site": "Kiddle",
+      "url": "https://kids.kiddle.co/Internment_of_Japanese_Americans",
+      "level": "On level",
+      "about": "A kids' encyclopedia article about life in the camps, the 442nd, and the apology.",
+      "cite": "\"Internment of Japanese Americans Facts for Kids.\" Kiddle."
+    },
+    {
+      "title": "Introduction to WWII Incarceration",
+      "site": "Densho",
+      "url": "https://densho.org/learn/introduction/",
+      "level": "Challenging",
+      "about": "An overview from a Japanese American history organization about why the incarceration happened and how people responded.",
+      "cite": "\"Introduction to WWII Incarceration.\" Densho."
+    },
+    {
+      "title": "Manzanar National Historic Site",
+      "site": "National Park Service",
+      "url": "https://www.nps.gov/manz/index.htm",
+      "level": "On level",
+      "about": "The home page of the national historic site at one of the 10 camps.",
+      "cite": "\"Manzanar National Historic Site.\" National Park Service."
+    },
+    {
+      "title": "Japanese American internment",
+      "site": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Japanese-American-internment/632644",
+      "level": "On level",
+      "about": "An encyclopedia article for kids about the forced removal of Japanese Americans during World War II.",
+      "cite": "\"Japanese American internment.\" Britannica Kids."
+    }
+  ],
+  "britannica": {
+    "title": "Japanese American internment",
+    "kidsUrl": "https://kids.britannica.com/kids/article/Japanese-American-internment/632644",
+    "id": "632644",
+    "pathSlug": "Japanese-American-internment"
+  }
+}

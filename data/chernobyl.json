@@ -1,0 +1,233 @@
+{
+  "slug": "chernobyl",
+  "name": "Chernobyl",
+  "reason": "Human-made disaster",
+  "years": "1986",
+  "startYear": 1986,
+  "place": "Chernobyl and Pripyat, Ukraine (then part of the Soviet Union)",
+  "intro": "On April 26, 1986, a reactor exploded at the Chernobyl Nuclear Power Plant in Ukraine, which was then part of the Soviet Union. It was the worst nuclear accident in history. Dangerous radiation spread over the land, and the whole city of Pripyat and many nearby villages had to be emptied, forcing hundreds of thousands of people to leave their homes for good.",
+  "keyFacts": [
+    {
+      "label": "When",
+      "value": "April 26, 1986"
+    },
+    {
+      "label": "Where",
+      "value": "Chernobyl Nuclear Power Plant, near Pripyat in northern Ukraine"
+    },
+    {
+      "label": "Who moved",
+      "value": "The people of Pripyat and villages near the power plant"
+    },
+    {
+      "label": "How many",
+      "value": "About 49,000 people from Pripyat; about 335,000 people in all"
+    },
+    {
+      "label": "Where they went",
+      "value": "Nearby towns and villages, and later the new city of Slavutych"
+    }
+  ],
+  "timeline": [
+    {
+      "year": "1970",
+      "text": "The city of Pripyat is founded as a home for workers at the Chernobyl power plant."
+    },
+    {
+      "year": "Apr. 26, 1986",
+      "text": "At 1:23 a.m., reactor number 4 explodes during a safety test."
+    },
+    {
+      "year": "Apr. 27, 1986",
+      "text": "More than 1,000 buses carry all of Pripyat's people away in just a few hours."
+    },
+    {
+      "year": "Apr. 28, 1986",
+      "text": "Scientists in Sweden find radiation in the air, and Soviet leaders admit there was an accident."
+    },
+    {
+      "year": "Dec. 15, 2000",
+      "text": "The last working reactor at Chernobyl is shut down."
+    },
+    {
+      "year": "Nov. 2016",
+      "text": "A giant new steel shelter, the New Safe Confinement, is slid over the damaged reactor."
+    }
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "The Chernobyl Nuclear Power Plant made electricity for the Soviet Union. It was in northern Ukraine, which was part of the Soviet Union at the time. Nearby was the city of Pripyat, built in 1970 for the plant's workers and their families. About 49,000 people lived there.",
+        "Early in the morning on April 26, 1986, workers ran a safety test on reactor number 4. They broke important safety rules, and the reactor had design problems too. At 1:23 a.m., the reactor suddenly got too hot and exploded. The blast blew the heavy roof off the building and started fires.",
+        "The explosion sent radioactive material high into the air. Wind carried it far away, all the way to Sweden. Two workers died in the explosion, and 28 emergency workers died from radiation sickness in the months after. It was the worst nuclear accident in history."
+      ],
+      "from": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "Radiation is a kind of energy you cannot see, smell, or feel. Large amounts of it can make people very sick. After the explosion, the land, water, and buildings near the plant were full of dangerous radiation. People could not safely live there anymore.",
+        "At first, Soviet leaders kept the accident a secret. They did not tell the people of Pripyat for about 36 hours. On April 28, scientists in Sweden found radiation in the air and traced it back to the Soviet Union. Only then did Soviet leaders admit there had been an accident.",
+        "Officials later emptied every village within about 30 kilometers (19 miles) of the plant. This area became the Chernobyl Exclusion Zone. People are still not allowed to live there today."
+      ],
+      "from": [
+        0,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "On the afternoon of April 27, 1986, soldiers and police came to Pripyat. They used more than 1,000 buses to move all of the city's people in just a few hours. Families were told they would come back in three days. Because of that, most people left almost all of their belongings behind.",
+        "The buses took people to towns and villages farther from the plant. In the weeks after, people from many more villages had to leave too. In all, the Soviet Union evacuated about 335,000 people.",
+        "The families of Pripyat never went home. The government built a brand-new city called Slavutych just for the people who had lived in Pripyat. They had to start over in a new place, far from the homes they had left."
+      ],
+      "from": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "Pripyat became a ghost town. Today, no one lives there at all. Its empty apartment buildings, schools, and amusement park still stand, just as people left them in 1986.",
+        "Workers covered the broken reactor with a concrete and steel shell a few months after the accident. In November 2016, a huge new steel shelter was slid over it to keep the radiation inside. The last working reactor at Chernobyl was shut down in 2000. Cleanup work is expected to last until at least 2065.",
+        "With no people around, wild animals moved into the Exclusion Zone. Wolves, wild boars, lynx, elk, and rare Przewalski's horses now roam the empty land. Scientists study the animals to learn how radiation affects living things."
+      ],
+      "from": [
+        0,
+        1,
+        2,
+        3
+      ]
+    }
+  ],
+  "vocab": [
+    {
+      "word": "nuclear power plant",
+      "meaning": "A place that makes electricity by splitting tiny atoms, which gives off a lot of heat."
+    },
+    {
+      "word": "reactor",
+      "meaning": "The machine inside a nuclear power plant where the heat for making electricity is created."
+    },
+    {
+      "word": "radiation",
+      "meaning": "Invisible energy given off by some materials. Large amounts can make living things very sick."
+    },
+    {
+      "word": "evacuate",
+      "meaning": "To leave a dangerous place to get to safety."
+    },
+    {
+      "word": "exclusion zone",
+      "meaning": "An area where people are not allowed to live because it is not safe."
+    },
+    {
+      "word": "Soviet Union",
+      "meaning": "A large country, led from Moscow, that included Russia, Ukraine, Belarus, and other nations until 1991."
+    },
+    {
+      "word": "ghost town",
+      "meaning": "A town where no one lives anymore."
+    }
+  ],
+  "teacherNote": "The page states plainly that workers died from the explosion and radiation sickness, without describing illness or injuries. Photos show the empty amusement park, the new shelter over the reactor, and a map of where radiation spread. The Chernobyl area was affected by the war in Ukraine after 2022; this page does not cover that.",
+  "photos": [
+    {
+      "file": "chernobyl-1.jpg",
+      "alt": "An old Ferris wheel with yellow cars and other rusty rides standing in an empty, cracked paved square surrounded by bare trees in Pripyat.",
+      "caption": "The rides in Pripyat's amusement park were being made ready for a spring holiday, but they were never used.",
+      "credit": "Justin Stahlman",
+      "license": "CC BY 2.0",
+      "source": "https://commons.wikimedia.org/wiki/File:Pripyat_-_Abandoned_funfair.jpg"
+    },
+    {
+      "file": "chernobyl-2.jpg",
+      "alt": "A huge silver arched building covering the old reactor at the Chernobyl power plant, with green trees in front.",
+      "caption": "Since 2016, this giant steel shelter has covered the damaged reactor to keep the radiation inside.",
+      "credit": "Tim Porter",
+      "license": "CC BY-SA 4.0",
+      "source": "https://commons.wikimedia.org/wiki/File:NSC-Oct-2017.jpg"
+    },
+    {
+      "file": "chernobyl-map.jpg",
+      "map": true,
+      "alt": "Map of Ukraine, Belarus, and Russia with a star marking the Chernobyl plant near Pripyat, north of Kiev, and colored areas showing where radiation spread.",
+      "caption": "The yellow star marks the Chernobyl plant. The colors show where radiation landed in Ukraine, Belarus, and Russia.",
+      "credit": "CIA Factbook; vector by Sting, English labels by MTruch and Makeemlighter",
+      "license": "CC BY-SA 2.5",
+      "source": "https://commons.wikimedia.org/wiki/File:Chernobyl_radiation_map_1996.svg"
+    }
+  ],
+  "videos": [
+    {
+      "title": "CHERNOBYL disaster: 35 years on | Newsround",
+      "url": "https://www.youtube.com/watch?v=FtfkOAL7K7M",
+      "channel": "BBC Newsround",
+      "about": "A kids' news report explaining what happened at Chernobyl and what the area is like 35 years later.",
+      "minutes": 6,
+      "cite": "\"CHERNOBYL disaster: 35 years on | Newsround.\" BBC Newsround. 2021."
+    }
+  ],
+  "sources": [
+    {
+      "title": "Chernobyl disaster facts for kids",
+      "site": "Kiddle",
+      "url": "https://kids.kiddle.co/Chernobyl_disaster",
+      "level": "On level",
+      "about": "A kid-friendly article about the explosion, the evacuation of Pripyat, the Exclusion Zone, and the wildlife there today.",
+      "cite": "\"Chernobyl disaster facts for kids.\" Kiddle."
+    },
+    {
+      "title": "Pripyat facts for kids",
+      "site": "Kiddle",
+      "url": "https://kids.kiddle.co/Pripyat",
+      "level": "On level",
+      "about": "Explains how Pripyat was built for power plant workers and became an empty city after 1986.",
+      "cite": "\"Pripyat facts for kids.\" Kiddle."
+    },
+    {
+      "title": "Chernobyl disaster facts and information",
+      "site": "National Geographic",
+      "url": "https://www.nationalgeographic.com/culture/article/chernobyl-disaster",
+      "level": "Challenging",
+      "about": "Covers the causes of the accident, the evacuation, and what scientists have learned about the Exclusion Zone.",
+      "cite": "\"Chernobyl disaster facts and information.\" National Geographic."
+    },
+    {
+      "title": "Chernobyl Disaster: Timeline of Nuclear Accident",
+      "site": "HISTORY",
+      "url": "https://www.history.com/articles/chernobyl-disaster-timeline",
+      "level": "Challenging",
+      "about": "A timeline of the accident, the evacuation of Pripyat, and the new shelter built over the reactor.",
+      "cite": "\"Chernobyl Disaster: Timeline of Nuclear Accident.\" HISTORY."
+    },
+    {
+      "title": "Chernobyl disaster",
+      "site": "Britannica Kids",
+      "url": "https://kids.britannica.com/kids/article/Chernobyl-disaster/23843",
+      "level": "On level",
+      "about": "An encyclopedia article for kids about the 1986 nuclear accident and its effects.",
+      "cite": "\"Chernobyl disaster.\" Britannica Kids."
+    }
+  ],
+  "britannica": {
+    "title": "Chernobyl disaster",
+    "kidsUrl": "https://kids.britannica.com/kids/article/Chernobyl-disaster/23843",
+    "id": "23843",
+    "pathSlug": "Chernobyl-disaster"
+  }
+}

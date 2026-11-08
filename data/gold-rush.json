@@ -1,0 +1,91 @@
+{
+  "slug": "gold-rush",
+  "name": "The California Gold Rush",
+  "reason": "Opportunity",
+  "years": "1848–1855",
+  "startYear": 1848,
+  "place": "California, United States",
+  "intro": "In January 1848, a worker found gold at Sutter's Mill in California. Over the next few years, about 300,000 people rushed to California from across the United States and from many other countries, hoping to get rich. The Gold Rush helped California grow fast, but it brought terrible harm to the Native peoples who already lived there.",
+  "keyFacts": [
+    {"label": "When", "value": "1848–1855"},
+    {"label": "Where", "value": "Sutter's Mill near Coloma and the gold fields of Northern California"},
+    {"label": "Who moved", "value": "Gold seekers called Forty-niners, mostly young men, from the U.S., Mexico, Chile, Peru, China, Hawaii, Europe, and Australia"},
+    {"label": "How many", "value": "About 300,000 people came to California"},
+    {"label": "Where they went", "value": "Gold fields along California's rivers, and fast-growing towns like San Francisco and Sacramento"}
+  ],
+  "timeline": [
+    {"year": "1848", "text": "On January 24, James Marshall found gold at Sutter's Mill near Coloma, California."},
+    {"year": "1848", "text": "On February 2, a treaty ended the Mexican-American War and gave California to the United States."},
+    {"year": "1849", "text": "About 90,000 gold seekers, called Forty-niners, arrived in California."},
+    {"year": "1850", "text": "California became the 31st state in September."},
+    {"year": "1852", "text": "San Francisco grew to about 36,000 people, up from about 200 in 1846."},
+    {"year": "1870", "text": "Only about 30,000 Native people were left in California, down from about 150,000 before the Gold Rush."}
+  ],
+  "sections": [
+    {
+      "key": "happened",
+      "title": "What happened?",
+      "paragraphs": [
+        "On January 24, 1848, James Marshall was building a sawmill for John Sutter near Coloma, California. He spotted shiny flakes of gold in the river. Marshall and Sutter tried to keep the discovery a secret. But the news spread quickly, and soon people everywhere were talking about California gold.",
+        "That same year, a treaty ended the Mexican-American War, and California became part of the United States. At the time, only about 14,000 people who were not Native American lived in California. About 150,000 Native people also lived there, in many different nations. California had more kinds of Native peoples than any other part of North America.",
+        "The Gold Rush lasted from 1848 to about 1855. A few people became very rich, but most did not. When the gold in an area ran out, miners moved on, and some busy towns became empty ghost towns."
+      ],
+      "from": [0, 1, 2, 3]
+    },
+    {
+      "key": "why",
+      "title": "Why did people move?",
+      "paragraphs": [
+        "People moved to California for one big reason: the chance to find gold and get rich. Stories about gold lying in the rivers spread around the world. Many people hoped to dig up a fortune and return home wealthy. These gold seekers were called Forty-niners, because so many arrived in 1849.",
+        "The gold seekers came from many countries. In 1848, the first miners came from Hawaii, Oregon, Mexico, Chile, Peru, and China. People from Europe and Australia soon followed. By 1849, about two-thirds of the newcomers were from the United States, and the rest came from other countries."
+      ],
+      "from": [0, 1, 2]
+    },
+    {
+      "key": "journey",
+      "title": "Where did they go, and how?",
+      "paragraphs": [
+        "About 6,000 newcomers arrived in 1848, and about 90,000 more came in 1849. In all, about 300,000 people came to California during the Gold Rush. About half of them traveled by sea on ships. The other half came over land, often on the California Trail.",
+        "Most gold seekers headed to the rivers and hills of Northern California, near the Sierra Nevada mountains. They set up mining camps and washed dirt from the rivers to find gold. New towns grew very fast. San Francisco grew from about 200 people in 1846 to about 36,000 people in 1852."
+      ],
+      "from": [0, 1]
+    },
+    {
+      "key": "changed",
+      "title": "How did it change lives?",
+      "paragraphs": [
+        "The Gold Rush changed California quickly. So many people arrived that California became the 31st state in 1850, only about two years after gold was found. People from many countries now lived and worked side by side. Store owners who sold supplies to miners often earned more money than the miners did.",
+        "For California's Native peoples, the Gold Rush was a disaster. Gold was first found on the land of the Nisenan people. Miners took over Native lands and polluted the rivers, which killed fish and left less food to eat. Some newcomers attacked Native villages and killed many people. A California law passed in 1850 even allowed some Native people, including children, to be forced to work for settlers.",
+        "Sickness, hunger, and violence caused the deaths of about 120,000 Native people during the Gold Rush years. By 1870, only about 30,000 Native people were left in California, and most had been forced onto reservations. Today, California Native nations are still here. They work to protect their lands, languages, and cultures, and to make sure this history is remembered."
+      ],
+      "from": [0, 1, 2, 3, 4]
+    }
+  ],
+  "vocab": [
+    {"word": "Forty-niners", "meaning": "The people who rushed to California to look for gold, named for the year 1849."},
+    {"word": "prospector", "meaning": "A person who searches for gold or other valuable minerals."},
+    {"word": "boomtown", "meaning": "A town that grows very big very fast, often because of gold or other riches."},
+    {"word": "ghost town", "meaning": "A town that people have left, so it is empty."},
+    {"word": "immigrant", "meaning": "A person who moves to a new country to live."},
+    {"word": "treaty", "meaning": "A written agreement between two or more countries or nations."},
+    {"word": "reservation", "meaning": "Land set aside by the U.S. government where Native American people were made to live."}
+  ],
+  "teacherNote": "This page states plainly that Native Californians lost land, were attacked, and died in large numbers during the Gold Rush, without graphic detail. Some historians call these events a genocide; the page does not use that word, so you may want to discuss it with students. The videos are general kids' overviews; preview them for how they cover Native peoples.",
+  "photos": [
+    {"file": "gold-rush-1.jpg", "alt": "An old hand-colored photo of eight men in hats standing around a long wooden mining box in a muddy gold field, with cabins on the hill behind them.", "caption": "Gold miners stood by a long wooden box called a long tom, which they used to wash gold out of dirt, around 1850–1852.", "credit": "George H. Johnson", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:California_gold_miners_with_long_tom.jpg"},
+    {"file": "gold-rush-2.jpg", "alt": "A rebuilt wooden sawmill beside trees and a river in Coloma, California.", "caption": "This rebuilt copy of Sutter's Mill stands in Coloma, California, near the spot where gold was found in 1848.", "credit": "UncleVinny", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Sutter%27s_Mill_(reconstruction)_Coloma,_CA_-_panoramio.jpg"},
+    {"file": "gold-rush-map.jpg", "map": true, "alt": "A map of Northern California with the gold fields shaded yellow, and labels for Coloma, Sacramento, San Francisco, and the Sacramento, Feather, and American Rivers.", "caption": "The yellow areas show where the gold fields were, and the red dot shows Coloma, where gold was first found.", "credit": "NorCalHistory", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:California_Gold_Rush_relief_map_2.jpg"}
+  ],
+  "videos": [
+    {"title": "California Gold Rush For Kids | Bedtime History", "url": "https://www.youtube.com/watch?v=vGvrLfkdD1w", "channel": "Bedtime History", "about": "A calm, story-style video about the gold discovery at Sutter's Mill and the Forty-niners who rushed to California.", "minutes": 10, "cite": "\"California Gold Rush For Kids | Bedtime History.\" Bedtime History. 2020."},
+    {"title": "The History of the California Gold Rush and the 49ers | FOR KIDS!", "url": "https://www.youtube.com/watch?v=Cr1BaWxA1rk", "channel": "History For Humans", "about": "A kid-friendly overview of how the Gold Rush started and how it changed California and the West.", "minutes": 9, "cite": "\"The History of the California Gold Rush and the 49ers | FOR KIDS!\" History For Humans. 2022."}
+  ],
+  "sources": [
+    {"title": "History: California Gold Rush", "site": "Ducksters", "url": "https://www.ducksters.com/history/westward_expansion/california_gold_rush.php", "level": "On level", "about": "A short kids' page about the gold discovery, the Forty-niners, where they came from, and boomtowns.", "cite": "\"History: California Gold Rush.\" Ducksters."},
+    {"title": "California Gold Rush facts for kids", "site": "Kiddle", "url": "https://kids.kiddle.co/California_Gold_Rush", "level": "On level", "about": "A kids' encyclopedia article about how people traveled to California and how the Gold Rush affected Native Americans.", "cite": "\"California Gold Rush facts for kids.\" Kiddle."},
+    {"title": "The California Gold Rush", "site": "PBS American Experience", "url": "https://www.pbs.org/wgbh/americanexperience/features/goldrush-california/", "level": "Challenging", "about": "An article about who lived in California before 1848, which countries the miners came from, and the harm to Native Americans.", "cite": "\"The California Gold Rush.\" American Experience, PBS."},
+    {"title": "The Gold Rush Impact on Native Tribes", "site": "PBS American Experience", "url": "https://www.pbs.org/wgbh/americanexperience/features/goldrush-value-land/", "level": "Challenging", "about": "An article about how the Gold Rush harmed California's Native peoples, including the Nisenan.", "cite": "\"The Gold Rush Impact on Native Tribes.\" American Experience, PBS."},
+    {"title": "Timeline: 1800s - Island of the Blue Dolphins", "site": "National Park Service", "url": "https://www.nps.gov/subjects/islandofthebluedolphins/timeline-1800s.htm", "level": "Challenging", "about": "A timeline of California Native history in the 1800s, including the Gold Rush and the drop in the Native population.", "cite": "\"Timeline: 1800s - Island of the Blue Dolphins.\" National Park Service."}
+  ],
+  "britannica": {"title": "gold rush", "kidsUrl": "https://kids.britannica.com/kids/article/gold-rush/353191", "id": "353191", "pathSlug": "gold-rush"}
+}

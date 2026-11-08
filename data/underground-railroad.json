@@ -1,0 +1,71 @@
+{
+  "slug": "underground-railroad",
+  "name": "The Underground Railroad",
+  "reason": "Escape to freedom",
+  "years": "Early 1800s–1865",
+  "startYear": 1810,
+  "place": "Southern United States to the North, Canada, and Mexico",
+  "intro": "The Underground Railroad was a secret network of people and hiding places. It helped enslaved people escape from the South to freedom in the North, Canada, and other places. Freedom seekers and their helpers showed great courage, because escaping and helping were both against the law.",
+  "keyFacts": [
+    {"label": "When", "value": "About 1810 to 1865, busiest in the 1850s"},
+    {"label": "Where", "value": "From the Southern states to free states, Canada, Mexico, and the Caribbean"},
+    {"label": "Who moved", "value": "Enslaved African Americans seeking freedom"},
+    {"label": "How many", "value": "Possibly more than 100,000 people; no one knows the exact number"},
+    {"label": "Where they went", "value": "Mostly the Northern free states and Canada"}
+  ],
+  "timeline": [
+    {"year": "1780", "text": "Pennsylvania becomes the first state to pass a law to end slavery."},
+    {"year": "1849", "text": "Harriet Tubman escapes slavery in Maryland."},
+    {"year": "1850", "text": "The Fugitive Slave Act makes the North unsafe, so many freedom seekers go on to Canada."},
+    {"year": "1863", "text": "Harriet Tubman helps lead a raid that frees more than 700 enslaved people."},
+    {"year": "1865", "text": "The Civil War ends, and slavery ends in the United States."}
+  ],
+  "sections": [
+    {"key": "happened", "title": "What happened?", "paragraphs": [
+      "Before the Civil War, slavery was legal in the Southern United States. The Underground Railroad was not a real railroad, and it did not run under the ground. It was a secret network of people, homes, and hiding places. It helped enslaved people escape to freedom from about 1810 until the 1860s.",
+      "People used railroad words as a secret code. Guides who led people were called conductors. Hiding places, such as homes and barns, were called stations or depots. Helping freedom seekers was against the law, so everything had to stay secret.",
+      "Many kinds of people helped. Free Black people and formerly enslaved people, like Harriet Tubman, were some of the bravest conductors. Quakers and other people who were against slavery opened their homes, too. The National Park Service calls the people who escaped \"freedom seekers.\""
+    ], "from": [0, 1, 2]},
+    {"key": "why", "title": "Why did people move?", "paragraphs": [
+      "Enslaved people did not have freedom. They could be sold away from their families at any time. Harriet Tubman escaped in 1849 when her enslaver died and she was going to be sold. Many people decided to risk everything to be free.",
+      "Running away was very dangerous. Slave catchers watched the roads and rivers that freedom seekers were likely to use. Enslavers also offered rewards to people who caught them. A reward of one hundred dollars was offered for Harriet Tubman.",
+      "In 1850, the United States passed the Fugitive Slave Act. This law said that freedom seekers found in free states must be sent back to their enslavers. After this law, even the Northern states were not safe. Many freedom seekers had to travel all the way to Canada."
+    ], "from": [0, 1, 2, 3]},
+    {"key": "journey", "title": "Where did they go, and how?", "paragraphs": [
+      "Most freedom seekers traveled north toward the free states and Canada. Many walked at night and hid during the day. Stations were usually about 10 to 20 miles apart. People rested in basements, barns, churches, or caves.",
+      "Some people used the stars to find north. Others rode in wagons, sometimes hidden under hay. Some escaped by boat along rivers and the Atlantic Coast, often with help from Black sailors. Many freedom seekers in Texas went south to Mexico, where slavery was against the law.",
+      "Harriet Tubman made about 13 trips back to Maryland to rescue family and friends. She also gave directions to about 70 more people who escaped on their own. She later said she never lost a passenger. People called her \"Moses.\""
+    ], "from": [0, 1, 2, 3]},
+    {"key": "changed", "title": "How did it change lives?", "paragraphs": [
+      "Between 1850 and 1860, about 30,000 to 40,000 freedom seekers settled in Canada. Most made new homes in Ontario, and some built whole villages. In Canada, Black people could live freely, serve on juries, and run for office. Still, they sometimes faced unfair treatment and had trouble finding jobs.",
+      "When the Civil War began, many freedom seekers joined the Union army. Harriet Tubman worked for the army as a nurse, scout, and spy. After the war, thousands of people returned to the South to find their families.",
+      "Today, people remember the Underground Railroad at museums and historic sites. The Levi Coffin House in Indiana was a station where freedom seekers hid. William Still of Philadelphia kept careful records of the people he helped. His 1872 book helps historians tell their stories today."
+    ], "from": [0, 1, 3, 4]}
+  ],
+  "vocab": [
+    {"word": "enslaved", "meaning": "Forced to work for someone else without freedom or pay."},
+    {"word": "freedom seeker", "meaning": "A person who escaped from slavery to find freedom."},
+    {"word": "abolitionist", "meaning": "A person who worked to end slavery."},
+    {"word": "conductor", "meaning": "On the Underground Railroad, a guide who led freedom seekers to safety."},
+    {"word": "network", "meaning": "A group of people and places that are connected and work together."},
+    {"word": "Fugitive Slave Act", "meaning": "An 1850 law that said people who escaped slavery must be sent back, even from free states."}
+  ],
+  "teacherNote": "This page explains slavery and escape honestly but does not describe violence or punishments. Both videos focus on Harriet Tubman; please preview them before showing them to students.",
+  "photos": [
+    {"file": "underground-railroad-1.jpg", "alt": "Black-and-white portrait of Harriet Tubman sitting in a chair, taken around 1868.", "caption": "Harriet Tubman escaped slavery and then led many others to freedom.", "credit": "Benjamin F. Powelson", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Harriet_Tubman_c1868-69.jpg"},
+    {"file": "underground-railroad-2.jpg", "alt": "A two-story brick house on a town street in Fountain City, Indiana.", "caption": "The Levi Coffin House in Indiana was a station on the Underground Railroad.", "credit": "Nyttend", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Levi_Coffin_House,_front_and_southern_side.jpg"},
+    {"file": "underground-railroad-map.jpg", "map": true, "alt": "Map of the United States with arrows showing escape routes north to Canada, south to Mexico, and to the Caribbean.", "caption": "Freedom seekers took many routes, north to Canada and south to Mexico and the Caribbean.", "credit": "National Park Service", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Underground_Railroad_map_by_US_National_Park_Service.png"}
+  ],
+  "videos": [
+    {"title": "Harriet Tubman for Kids | Underground Railroad Hero", "url": "https://www.youtube.com/watch?v=b3OehwRHIlo", "channel": "Homeschool Pop", "about": "A kid-friendly lesson about Harriet Tubman's life and her work as a conductor on the Underground Railroad.", "minutes": 8, "cite": "\"Harriet Tubman for Kids | Underground Railroad Hero.\" Homeschool Pop. 2018."},
+    {"title": "Harriet Tubman for Kids | Learn about Harriet Tubman and the Underground Railroad", "url": "https://www.youtube.com/watch?v=5zmOwgqkcec", "channel": "Learn Bright", "about": "An animated lesson about Harriet Tubman and how the Underground Railroad worked.", "minutes": 7, "cite": "\"Harriet Tubman for Kids | Learn about Harriet Tubman and the Underground Railroad.\" Learn Bright. 2022."}
+  ],
+  "sources": [
+    {"title": "Underground Railroad", "site": "Ducksters", "url": "https://www.ducksters.com/history/civil_war/underground_railroad.php", "level": "On level", "about": "Explains how the Underground Railroad worked, its secret railroad words, and the Fugitive Slave Act.", "cite": "\"Underground Railroad.\" Ducksters."},
+    {"title": "Underground Railroad facts for kids", "site": "Kiddle", "url": "https://kids.kiddle.co/Underground_Railroad", "level": "On level", "about": "Describes routes to the North, Canada, and Mexico, how people traveled, and life in Canada afterward.", "cite": "\"Underground Railroad facts for kids.\" Kiddle."},
+    {"title": "What Is the Underground Railroad?", "site": "National Park Service", "url": "https://www.nps.gov/subjects/undergroundrailroad/what-is-the-underground-railroad.htm", "level": "Challenging", "about": "Explains who freedom seekers were, who helped them, and the many places they went.", "cite": "\"What Is the Underground Railroad?\" National Park Service."},
+    {"title": "Harriet Tubman", "site": "National Park Service", "url": "https://www.nps.gov/people/harriet-tubman.htm", "level": "Challenging", "about": "A biography of Harriet Tubman, including her escape, her rescue trips, and her Civil War service.", "cite": "\"Harriet Tubman.\" National Park Service."},
+    {"title": "Underground Railroad", "site": "History.com", "url": "https://www.history.com/articles/underground-railroad", "level": "Challenging", "about": "A detailed history of the network, its routes, and famous conductors like Harriet Tubman and William Still.", "cite": "\"Underground Railroad.\" History.com."}
+  ],
+  "britannica": {"title": "Underground Railroad", "kidsUrl": "https://kids.britannica.com/kids/article/Underground-Railroad/353882", "id": "353882", "pathSlug": "Underground-Railroad"}
+}
